@@ -1,0 +1,10 @@
+{
+  "architectures": ["LlamaForCausalLM"],
+  "hidden_size": 512,
+  "intermediate_size": 2048,
+  "num_hidden_layers": 8,
+  "num_attention_heads": 8,
+  "max_position_embeddings": 2048,
+  "vocab_size": 32000,
+  "rope_theta": 10000
+}

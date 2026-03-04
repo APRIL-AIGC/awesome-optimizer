@@ -1,0 +1,4 @@
+timm
+transformers
+wandb
+torch
