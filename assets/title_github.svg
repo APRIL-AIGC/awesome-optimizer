@@ -1,0 +1,30 @@
+<svg width="850" height="150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow3D" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="1.5" dy="1.5" stdDeviation="0" flood-color="#C0C0C0" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 42px; font-weight: bold; text-anchor: middle; filter: url(#shadow3D); }
+    .c1 { fill: #E24A4D; } /* I 的红色 */
+    .c2 { fill: #F49D26; } /* V 的橙色 */
+    .c3 { fill: #F8C13F; } /* E 的黄色 (微调防看不清) */
+    .c4 { fill: #14A76C; } /* B 的绿色 */
+    .c5 { fill: #55C9B3; } /* e 的薄荷色 */
+    .c6 { fill: #488DF4; } /* n 的蓝色 */
+    .c7 { fill: #9A5CB4; } /* c 的紫色 */
+    .c8 { fill: #EC3E8F; } /* h 的粉色 */
+  </style>
+  <text x="425" y="60" class="title">
+    <tspan class="c1">A Systematic </tspan>
+    <tspan class="c2">Survey </tspan>
+    <tspan class="c3">of </tspan>
+    <tspan class="c4">Optimization </tspan>
+    <tspan class="c5">Methods:</tspan>
+  </text>
+  <text x="425" y="120" class="title">
+    <tspan class="c6">Algorithms, </tspan>
+    <tspan class="c7">Scenarios, </tspan>
+    <tspan class="c8">and Evaluations</tspan>
+  </text>
+</svg>
