@@ -18,7 +18,7 @@ This is the official implementation for our paper:
 [-] Note that: Due to the huge paper in Arxiv, we are sorry to cover all in our survey. You can directly present a PR into this repo and we will record it for next version update of our survey.
 
 **🔥New**
- - **[2026.01.22]** We update GitHub to record the available paper by the end of 2026/3/4.
+ - **[2026.03.04]** We update GitHub to record the available paper by the end of 2026/3/4.
 
 ## Installation
 OptimSurvey requires a reasonably recent version of [torch](https://pytorch.org/get-started/locally/).
