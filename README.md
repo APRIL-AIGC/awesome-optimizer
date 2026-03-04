@@ -35,7 +35,7 @@ cd optim-survey
 ## Introduction
 This survey presents the first detailed survey on modern deep learning optimization methods, including adaptive methods (e.g., AdamW), sign-based optimization (e.g., Lion), memory-efficient optimizers for Large Language Models, and specific optimization methods for FL and DL.
 
-![Alt Text](figs/timeline.jpg)
+<img src="assets/drawing_main.png" width.="1000px">
 ## Summary of Contents
 
 - [Introduction](#introduction)
