@@ -3,7 +3,11 @@
   <img src="assets/title_github.png" width="800px" alt="A Systematic Survey of Optimization Methods">
 </h1>
 
-[![Torch Hub Support](https://img.shields.io/badge/torch_hub-gray?logo=pytorch)](#torch-hub)
+<div align="center">
+
+[![Torch Hub Support](https://img.shields.io/badge/torch_hub-gray?style=for-the-badge&logo=pytorch)](#torch-hub) [![Github](https://img.shields.io/badge/optim--survey-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JZhangTon/optim_survey)
+
+</div>
 
 This is the official implementation for our paper:  
 [Tong Zhang](https://scholar.google.com.hk/citations?hl=zh-CN&user=WsEUmpwAAAAJ&view_op=list_works&gmla=AF9nlQsB3CdUdRLrWHi9n_CwlbjpAQF4s01SgZMA212-nS3JzQjGGYmH_SRMgvuu1AHgiXAIw0h81427vtjl_3_IeQwZ9GUm0nlwcPbu9Jc)
@@ -21,40 +25,40 @@ This is the official implementation for our paper:
 **🔥New**
  - **[2026.03.04]** We update GitHub to record the available paper by the end of 2026/3/4.
 
-## Installation
+## 🔨Installation
 OptimSurvey requires a reasonably recent version of [torch](https://pytorch.org/get-started/locally/).
 After that, You can install our optimizer library via [pip](https://github.com/JZhangTon/optim_survey.git):
 ```bash
 pip install optim_survey
 ```
-### Installing from Source
+### 🔨Installing from Source
 If you want to reproduce the benchmarks or develop new optimizers based on our template:
 ```bash
 git clone https://github.com/JZhangTon/optim_survey.git
 cd optim-survey
 ```
-## Introduction
+## 📌Introduction
 This survey presents the first detailed survey on modern deep learning optimization methods, including adaptive methods (e.g., AdamW), sign-based optimization (e.g., Lion), memory-efficient optimizers for Large Language Models, and specific optimization methods for FL and DL.
 
 <img src="assets/drawing_main.png" width.="1000px">
 
-## Summary of Contents
+## 🗂️Summary of Contents
 
-- [Introduction](#introduction)
-- [Summary of Contents](#summary-of-contents)
-- [Methods: A Survey](#methods-a-survey)
-  - [Taxonomy of Optimization Methods](#taxonomy-of-optimization-methods)
-- [Usage](#usage)
-- [Benchmarking](#benchmarking)
-- [Acknowledgement](#acknowledgement)
-- [Contact](#contact)
-## Methods: A Survey
-**Keywords**
+- [📌Introduction](#introduction)
+- [🗂️Summary of Contents](#summary-of-contents)
+- [📊Methods: A Survey](#methods-a-survey)
+  - [📄Taxonomy of Optimization Methods](#taxonomy-of-optimization-methods)
+- [⚙️Usage](#usage)
+- [📈Benchmarking](#benchmarking)
+- [🔗Citation](#citation)
+- [📫Contact](#contact)
+## 📊Methods: A Survey
+**🗝️Keywords**
 
 - `Gradient Descent(GD).`: The Gradient Descent algorithm is an iterative optimization process applied to a differentiable loss function.
 - `Momentum.`: Alongside the standard gradient update, Momentum includes a velocity vector that accumulates past gradients to smooth out the optimization trajectory.
 - `Adaptive Methods.`: The Adaptive Methods are a collection of algorithms that adjust the learning rate based on parameter granularity or structure.
-### Taxonomy of Optimization Methods
+### 📄Taxonomy of Optimization Methods
 |Optimizer Taxonomy|Sub-methods|Fine-grained Methods|idx|Abbreviation|Venue|Year|Paper Title|Project|
 |---|---|---|:-:|:-:|:-:|:-:|---|---|
 |First-Order Methods|Learning Rate Scheduling|Stability-Aware Adaptive Scheduling|1|Multistage SGDM|NeurIPS|2020|An Improved Analysis of Stochastic Gradient Descent with Momentum|[Link](https://proceedings.neurips.cc/paper/2020/hash/d3f5d4de09ea19461dab00590df91e4f-Abstract.html)|
@@ -72,7 +76,7 @@ This survey presents the first detailed survey on modern deep learning optimizat
 |First-Order Methods； Memory-Efficient Optimization Methods|Learning Rate Scheduling； Stateless Optimization Methods|Initial Learning Rate Scaling； Parameter Characteristic-Driven Updates|13|SGD-SaI|arXiv|2024|No More Adam: Learning Rate Scaling at Initialization is All You Need|[Link](https://arxiv.org/abs/2412.11768)|
 |First-Order Methods|Momentum-Enhanced SGD|Double-momentum mechanism|14|μ²-SGD|ICLR|2025|DO STOCHASTIC, FEEL NOISELESS: STABLE STOCHASTIC OPTIMIZATION VIA A DOUBLE MOMENTUM MECHANISM|[Link](https://arxiv.org/abs/2304.04172)|
 |First-Order Methods|Learning Rate Scheduling|Scheduler-Free Adaptation|15|AutoSGD|arXiv|2025|AutoSGD: Automatic Learning Rate Selection for Stochastic Gradient Descent|[Link](https://arxiv.org/abs/2505.21651)|
-|Memory-efficient Methods|Inference-Level Memory Zeroth-Order|16|MeZO|NeurIPS|2023|Fine-Tuning Language Models with Just Forward Passes|[Link](https://arxiv.org/abs/2305.17333)|
+|Zeroth-Order Methods|Memory-efficient Methods|Inference-Level Memory Zeroth-Order|16|MeZO|NeurIPS|2023|Fine-Tuning Language Models with Just Forward Passes|[Link](https://arxiv.org/abs/2305.17333)|
 |First-Order Methods； Memory-Efficient Optimization Methods|Towards LLM Traning； Memory-Efficient Fine-Tuning for Large Models|Real-Time Computation； Staless Fine-Tuning|17|LOMO|ACL|2024|Full Parameter Fine-tuning for Large Language Models with Limited Resources|[Link](https://arxiv.org/abs/2306.09782)|
 |First-Order Methods|Adaptive Learning Rate Methods|Second-Order Moment Adaptation|18|AdaLOMO|arXiv|2023|AdaLomo: Low-memory Optimization with Adaptive Learning Rate|[Link](https://arxiv.org/abs/2310.10195)|
 |Zeroth-Order Methods|Variance Reduction|Snapshot Variance Reduction|19|MeZO-SVRG|ICLR|2024|Variance-reduced Zeroth-Order Methods for Fine-Tuning Language Models|[Link](https://arxiv.org/abs/2404.08080)|
@@ -353,26 +357,29 @@ This survey presents the first detailed survey on modern deep learning optimizat
 |Distributed Optimization Methods|Federated Learning Optimization|Federated Momentum Fusion|293|FedMuon|arXiv|2025|FedMuon: Accelerating Federated Learning with Matrix Orthogonalization||
 |First-Order Methods|Gradient Normalization & Clipping|Layer-Wise Gradient Normalization|294|AuON|arXiv|2025|AuON: A Linear-time Alternative to Orthogonal Momentum Updates||
 |Privacy-Preserving Optimization Methods|Differential Privacy Optimization|DP-SGD Variants|295|DP-MicroAdam|arXiv|2025|DP-MicroAdam: Private and Frugal Algorithm for Training and Fine-tuning||
-## Usage
+|First-Order Methods|Accelerating Convergence Rate|Momentum Damping Mechanism|296|FANoS|arXiv|2026|FANoS: Friction-Adaptive Nos´e–Hoover Symplectic Momentum for Stiff Objectives||
+|First-Order Methods|Hybrid Methods|Gradient Smoothing Hybrid|297|NOVAK|arXiv|2026|NOVAK: Unified adaptive optimizer for deep neural networks||
+## ⚙️Usage
 Please install the required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-## Benchmarking
+## 📈Benchmarking
 We provide a script for easy benchmarking. See [examples/benchmark](https://github.com/facebookresearch/hiera/blob/main/examples/benchmark.ipynb) to see how to use it.
-## Acknowledgement
+## 🔗Citation
 
 If you find our survey and repository useful for your research project, please consider citing our paper:
 
 ```bibtex
-@article{zhang2026open,
-      title={},
-      author={},
-      year={},
-      journal={},
+@misc{zhang2026optimsurvey,
+      title={A Systematic Survey of Optimization Methods: Algorithms, Scenarios, and Evaluations},
+      author={Tong Zhang, Jiangning Zhang},
+      year={2026},
+      publisher={GitHub},
+      howpublished={\url{https://github.com/JZhangTon/optim_survey}}
 }
 ```
-## Contact
+## 📫Contact
 
 ```
 22560294@zju.edu.cn
