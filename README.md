@@ -1,6 +1,6 @@
 <p align="center">
 <h1 align="center">
-  <img src="assets/title_github.svg" width="800px" alt="A Systematic Survey of Optimization Methods">
+  <img src="assets/title_github.png" width="800px" alt="A Systematic Survey of Optimization Methods">
 </h1>
 
 [![Torch Hub Support](https://img.shields.io/badge/torch_hub-gray?logo=pytorch)](#torch-hub)
