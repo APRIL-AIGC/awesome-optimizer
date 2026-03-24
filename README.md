@@ -383,8 +383,8 @@ If you find our survey and repository useful for your research project, please c
 
 ```bibtex
 @misc{zhang2026optimsurvey,
-      title={A Systematic Survey of Optimization Methods: Algorithms, Scenarios, and Evaluations},
-      author={Tong Zhang, Jiangning Zhang},
+      title={Evolution of Optimization Methods: Algorithms, Scenarios, and Evaluations},
+      author={Tong Zhang, Jiangning Zhang, Junwei Zhu, Zhucun Xue, Yong Liu, Dacheng Tao},
       year={2026},
       publisher={GitHub},
       howpublished={\url{https://github.com/JZhangTon/awesome-optimizer}}
