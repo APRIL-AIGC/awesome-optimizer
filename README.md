@@ -5,7 +5,7 @@
 
 <div align="center">
 
-[![Torch Hub Support](https://img.shields.io/badge/torch_hub-gray?style=for-the-badge&logo=pytorch)](#torch-hub) [![Github](https://img.shields.io/badge/optim--survey-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JZhangTon/awesome-optimizer)
+[![Torch Hub Support](https://img.shields.io/badge/torch_hub-gray?style=for-the-badge&logo=pytorch)](#torch-hub) [![Github](https://img.shields.io/badge/awesome--optimizer-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JZhangTon/awesome-optimizer)
 
 </div>
 
