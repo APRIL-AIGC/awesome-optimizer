@@ -5,7 +5,7 @@
 
 <div align="center">
 
-[![Torch Hub Support](https://img.shields.io/badge/torch_hub-gray?style=for-the-badge&logo=pytorch)](#torch-hub) [![Github](https://img.shields.io/badge/optim--survey-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JZhangTon/optim_survey)
+[![Torch Hub Support](https://img.shields.io/badge/torch_hub-gray?style=for-the-badge&logo=pytorch)](#torch-hub) [![Github](https://img.shields.io/badge/optim--survey-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JZhangTon/awesome-optimizer)
 
 </div>
 
@@ -18,7 +18,7 @@ This is the official implementation for our paper:
 
 **🔥Add Your Paper in our Survey!!!!!**
 
-[-] You are welcome to give us an issue or PR for your open vocabulary learning work !!!!!
+[-] You are welcome to give us an issue or PR for your optimizer work !!!!!
 
 [-] Note that: Due to the huge paper in Arxiv, we are sorry to cover all in our survey. You can directly present a PR into this repo and we will record it for next version update of our survey.
 
@@ -29,7 +29,7 @@ This is the official implementation for our paper:
 OptimSurvey requires a reasonably recent version of [torch](https://pytorch.org/get-started/locally/).
 After that, You can install our optimizer library via [pip](https://github.com/JZhangTon/awesome-optimizer.git):
 ```bash
-pip install optim_survey
+pip install awesome-optimizer
 ```
 ### 🔨Installing from Source
 If you want to reproduce the benchmarks or develop new optimizers based on our template:
@@ -365,7 +365,7 @@ Please install the required dependencies:
 pip install -r requirements.txt
 ```
 ## 📈Benchmarking
-We provide a script for easy benchmarking. See [examples/benchmark](https://github.com/facebookresearch/hiera/blob/main/examples/benchmark.ipynb) to see how to use it.
+We provide a script for easy benchmarking. See [examples/benchmark](examples/benchmark.ipynb) to see how to use it.
 ## 🔗Citation
 
 If you find our survey and repository useful for your research project, please consider citing our paper:
@@ -376,7 +376,7 @@ If you find our survey and repository useful for your research project, please c
       author={Tong Zhang, Jiangning Zhang},
       year={2026},
       publisher={GitHub},
-      howpublished={\url{https://github.com/JZhangTon/optim_survey}}
+      howpublished={\url{https://github.com/JZhangTon/awesome-optimizer}}
 }
 ```
 ## 📫Contact
@@ -385,7 +385,7 @@ If you find our survey and repository useful for your research project, please c
 22560294@zju.edu.cn
 ```
 
-[![Star History Chart](https://api.star-history.com/svg?repos=JZhangTon/optim_survey&type=Date)](https://star-history.com/#JZhangTon/optim_survey&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=JZhangTon/awesome-optimizer&type=Date)](https://star-history.com/#JZhangTon/awesome-optimizer&Date)
 
 
 
