@@ -14,7 +14,7 @@ This is the official implementation for our paper:
 .
 [Jiangning Zhang](https://zhangzjn.github.io)\*
 .
-[Junwei Zhu](https://hmzjwhmzjw.github.io/)\†
+[Junwei Zhu](https://hmzjwhmzjw.github.io/)†
 .
 [Zhucun Xue](https://scholar.google.com/citations?user=m3KDreEAAAAJ&hl=zh-CN)
 .
@@ -22,8 +22,9 @@ This is the official implementation for our paper:
 .
 [Dacheng Tao](https://scholar.google.com/citations?user=RwlJNLcAAAAJ&hl=zh-TW)
 .
+
 \*: Equal contribution.
-\†: Corresponding author.
+ †: Corresponding author.
 
 **🔥Add Your Paper in our Survey!!!!!**
 
