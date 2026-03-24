@@ -1,4 +1,5 @@
 {
+  "model_type": "llama",
   "architectures": ["LlamaForCausalLM"],
   "hidden_size": 512,
   "intermediate_size": 2048,
