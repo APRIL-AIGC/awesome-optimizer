@@ -31,7 +31,7 @@ To reproduce our benchmarks, you need to clone this repository and install the r
 
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/JZhangTon/awesome-optimizer.git](https://github.com/JZhangTon/awesome-optimizer.git)
+git clone https://github.com/JZhangTon/awesome-optimizer.git
 cd awesome-optimizer
 
 # 2. Install required packages
@@ -347,23 +347,24 @@ This survey presents the first detailed survey on modern deep learning optimizat
 |Second-Order Methods|Quasi-Newton Methods||282|BFGS|SIAM Journal on scientific computing|1995|A limited memory algorithm for bound constrained optimization||
 |Second-Order Methods|Fisher Information Matrix Application||283|Natural Gradient|Neural computation|1998|Natural gradient works efficiently in learning||
 |Zeroth-Order Methods|Perturbation Optimization|Paired Perturbation Sampling|284|SPSA|Cat|2001|Global random optimization by simultaneous perturbation stochastic approximation||
-|Zeroth-Order Methods|Adaptive Methods|Momentum-based Adaptive|285|ZO-AdaMM|NeurIPS|2019|Zeroth-Order Adaptive Momentum Method for Black-Box Optimization||
-|First-Order Methods|Momentum-Enhanced SGD|Accelerated Momentum|286|SGDM|ICML|2013|On the importance of initialization and momentum in deep learning||
-|First-Order Methods|Adaptive Learning Rate Methods||287|Adam|ICLR|2015|ADAM: A METHOD FOR STOCHASTIC OPTIMIZATION||
+|Zeroth-Order Methods|Adaptive Methods|Momentum-based Adaptive|285|ZO-AdaMM|NeurIPS|2025|Zeroth-Order Adaptive Momentum Method for Black-Box Optimization|[Link](https://arxiv.org/abs/1910.06513))|
+|First-Order Methods|Momentum-Enhanced SGD|Accelerated Momentum|286|SGDM|ICML|2013|On the importance of initialization and momentum in deep learning|[Link](https://proceedings.mlr.press/v28/sutskever13.html)|
+|First-Order Methods|Adaptive Learning Rate Methods||287|Adam|ICLR|2015|ADAM: A METHOD FOR STOCHASTIC OPTIMIZATION|[Link](https://arxiv.org/abs/1412.6980)|
 |Second-Order Methods|Quasi-Newton Methods|Stochastic BFGS|288|L-BFGS|Mathematics of computation|1980|Updating quasi-newton matrices with limited storage||
-|First-Order Methods|Hybrid Methods|Projection Gradient Hybrid|289|HVAdam|AAAI|2025|HVAdam: A Full-Dimension Adaptive Optimizer||
-|First-Order Methods|Adaptive Learning Rate Methods|Second-Order Moment Adaptation|290|AdamNX|arXiv|2025|AdamNX: An Adam improvement algorithm based on a novel exponential decay mechanism for the second-order moment estimate||
-|First-Order Methods|Adaptive Learning Rate Methods|Momentum-based Adaptive|291|ROOT|arXiv|2025|ROOT: Robust Orthogonalized Optimizer for Neural Network Training||
-|Privacy-Preserving Optimization Methods|Differential Privacy Optimization|DP-SGD Variants|292|DP-AdamW-BC|ICML|2025|DP-AdamW: Investigating Decoupled Weight Decay and Bias Correction in Private Deep Learning||
-|Distributed Optimization Methods|Federated Learning Optimization|Federated Momentum Fusion|293|FedMuon|arXiv|2025|FedMuon: Accelerating Federated Learning with Matrix Orthogonalization||
-|First-Order Methods|Gradient Normalization & Clipping|Layer-Wise Gradient Normalization|294|AuON|arXiv|2025|AuON: A Linear-time Alternative to Orthogonal Momentum Updates||
-|Privacy-Preserving Optimization Methods|Differential Privacy Optimization|DP-SGD Variants|295|DP-MicroAdam|arXiv|2025|DP-MicroAdam: Private and Frugal Algorithm for Training and Fine-tuning||
-|First-Order Methods|Accelerating Convergence Rate|Momentum Damping Mechanism|296|FANoS|arXiv|2026|FANoS: Friction-Adaptive Nos´e–Hoover Symplectic Momentum for Stiff Objectives||
-|First-Order Methods|Hybrid Methods|Gradient Smoothing Hybrid|297|NOVAK|arXiv|2026|NOVAK: Unified adaptive optimizer for deep neural networks||
-|First-Order Methods|Adaptive Step-Size Control|Second-order moment adaptation|298|HomeAdam|arXiv|2026|HomeAdam: Adam and AdamW Algorithms Sometimes Go Home to Obtain Better Provable Generalization||
-|First-Order Methods|Memory-Efficient Optimization|Low-Memory Optimizer Design|299|FlashOptim|arXiv|2026|FlashOptim: Optimizers for Memory-Efficient Training||
-|Privacy-Preserving Optimization|Differential Privacy Optimization|Dynamic noise scheduling|300|DP-aware AdaLN-Zero|arXiv|2026|DP-aware AdaLN-Zero: Taming Conditioning-Induced Heavy-Tailed Gradients in Differentially Private Diffusion||
-
+|First-Order Methods|Hybrid Methods|Projection Gradient Hybrid|289|HVAdam|AAAI|2025|HVAdam: A Full-Dimension Adaptive Optimizer|[Link](https://arxiv.org/abs/2511.20277)|
+|First-Order Methods|Adaptive Learning Rate Methods|Second-Order Moment Adaptation|290|AdamNX|arXiv|2025|AdamNX: An Adam improvement algorithm based on a novel exponential decay mechanism for the second-order moment estimate|[Link](https://arxiv.org/abs/2511.13465)|
+|First-Order Methods|Adaptive Learning Rate Methods|Momentum-based Adaptive|291|ROOT|arXiv|2025|ROOT: Robust Orthogonalized Optimizer for Neural Network Training|[Link](https://arxiv.org/abs/2511.20626)|
+|Privacy-Preserving Optimization Methods|Differential Privacy Optimization|DP-SGD Variants|292|DP-AdamW-BC|ICML|2025|DP-AdamW: Investigating Decoupled Weight Decay and Bias Correction in Private Deep Learning|[Link](https://arxiv.org/abs/2511.07843)|
+|Distributed Optimization Methods|Federated Learning Optimization|Federated Momentum Fusion|293|FedMuon|arXiv|2025|FedMuon: Accelerating Federated Learning with Matrix Orthogonalization|[Link](https://arxiv.org/abs/2510.27403)|
+|First-Order Methods|Gradient Normalization & Clipping|Layer-Wise Gradient Normalization|294|AuON|arXiv|2025|AuON: A Linear-time Alternative to Orthogonal Momentum Updates|[Link](https://arxiv.org/abs/2509.24320)|
+|Privacy-Preserving Optimization Methods|Differential Privacy Optimization|DP-SGD Variants|295|DP-MicroAdam|NeurIPS|2025|DP-MicroAdam: Private and Frugal Algorithm for Training and Fine-tuning|[Link](https://arxiv.org/abs/2511.20509)|
+|First-Order Methods|Accelerating Convergence Rate|Momentum Damping Mechanism|296|FANoS|arXiv|2026|FANoS: Friction-Adaptive Nos´e–Hoover Symplectic Momentum for Stiff Objectives|[Link](https://arxiv.org/pdf/2601.00889)|
+|First-Order Methods|Hybrid Methods|Gradient Smoothing Hybrid|297|NOVAK|arXiv|2026|NOVAK: Unified adaptive optimizer for deep neural networks|[Link](https://arxiv.org/abs/2601.07876)|
+|First-Order Methods|Adaptive Step-Size Control|Second-order moment adaptation|298|HomeAdam|arXiv|2026|HomeAdam: Adam and AdamW Algorithms Sometimes Go Home to Obtain Better Provable Generalization|[Link](https://arxiv.org/abs/2603.02649)|
+|First-Order Methods|Memory-Efficient Optimization|Low-Memory Optimizer Design|299|FlashOptim|arXiv|2026|FlashOptim: Optimizers for Memory-Efficient Training|[Link](https://arxiv.org/abs/2602.23349)|
+|Privacy-Preserving Optimization|Differential Privacy Optimization|Dynamic noise scheduling|300|DP-aware AdaLN-Zero|arXiv|2026|DP-aware AdaLN-Zero: Taming Conditioning-Induced Heavy-Tailed Gradients in Differentially Private Diffusion|[Link](https://arxiv.org/abs/2602.22610)|
+|Privacy-Preserving Optimization|Differential Privacy Optimization|DP-SGD variants|301|DP-λCGD|arXiv|2026|DP-λCGD: Efficient Noise Correlation for Differentially Private Model Training|[Link](https://arxiv.org/abs/2601.22334)|
+|Distributed Optimization|Local Update Strategies|Local-global hybrid updates|302|Ringleader ASGD|arXiv|2026|First Provably Optimal Asynchronous SGD for Homogeneous and Heterogeneous Data|[Link](https://arxiv.org/abs/2601.02523)|
 ## ⚙️Usage & 📈Benchmarking
 To start a training run and reproduce our benchmark results, you can execute the provided training scripts. We provide a script for easy benchmarking. See [examples/benchmark](examples/benchmark.ipynb) to see how to use it.
 ## 🔗Citation
