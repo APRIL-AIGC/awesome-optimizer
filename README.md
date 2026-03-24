@@ -27,15 +27,15 @@ This is the official implementation for our paper:
 
 ## 🔨Installation
 OptimSurvey requires a reasonably recent version of [torch](https://pytorch.org/get-started/locally/).
-After that, You can install our optimizer library via [pip](https://github.com/JZhangTon/optim_survey.git):
+After that, You can install our optimizer library via [pip](https://github.com/JZhangTon/awesome-optimizer.git):
 ```bash
 pip install optim_survey
 ```
 ### 🔨Installing from Source
 If you want to reproduce the benchmarks or develop new optimizers based on our template:
 ```bash
-git clone https://github.com/JZhangTon/optim_survey.git
-cd optim-survey
+git clone https://github.com/JZhangTon/awesome-optimizer.git
+cd awesome-optimizer
 ```
 ## 📌Introduction
 This survey presents the first detailed survey on modern deep learning optimization methods, including adaptive methods (e.g., AdamW), sign-based optimization (e.g., Lion), memory-efficient optimizers for Large Language Models, and specific optimization methods for FL and DL.
