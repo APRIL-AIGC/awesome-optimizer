@@ -1,4 +1,4 @@
 timm>=1.0.25
 transformers>=5.3.0
 wandb
-torch>=1.7
+torch>=2.7.0
