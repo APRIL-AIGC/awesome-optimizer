@@ -26,17 +26,17 @@ This is the official implementation for our paper:
  - **[2026.03.04]** We update GitHub to record the available paper by the end of 2026/3/4.
 
 ## 🔨Installation
-OptimSurvey requires a reasonably recent version of [torch](https://pytorch.org/get-started/locally/).
-After that, You can install our optimizer library via [pip](https://github.com/JZhangTon/awesome-optimizer.git):
+
+To reproduce our benchmarks, you need to clone this repository and install the required dependencies. We strongly recommend using a virtual environment (e.g., Conda).
+
 ```bash
-pip install awesome-optimizer
-```
-### 🔨Installing from Source
-If you want to reproduce the benchmarks or develop new optimizers based on our template:
-```bash
-git clone https://github.com/JZhangTon/awesome-optimizer.git
+# 1. Clone the repository
+git clone [https://github.com/JZhangTon/awesome-optimizer.git](https://github.com/JZhangTon/awesome-optimizer.git)
 cd awesome-optimizer
-```
+
+# 2. Install required packages
+pip install -r requirements.txt
+
 ## 📌Introduction
 This survey presents the first detailed survey on modern deep learning optimization methods, including adaptive methods (e.g., AdamW), sign-based optimization (e.g., Lion), memory-efficient optimizers for Large Language Models, and specific optimization methods for FL and DL.
 
@@ -362,13 +362,8 @@ This survey presents the first detailed survey on modern deep learning optimizat
 |First-Order Methods|Adaptive Step-Size Control|Second-order moment adaptation|298|HomeAdam|arXiv|2026|HomeAdam: Adam and AdamW Algorithms Sometimes Go Home to Obtain Better Provable Generalization||
 |First-Order Methods|Memory-Efficient Optimization|Low-Memory Optimizer Design|299|FlashOptim|arXiv|2026|FlashOptim: Optimizers for Memory-Efficient Training||
 |Privacy-Preserving Optimization|Differential Privacy Optimization|Dynamic noise scheduling|300|DP-aware AdaLN-Zero|arXiv|2026|DP-aware AdaLN-Zero: Taming Conditioning-Induced Heavy-Tailed Gradients in Differentially Private Diffusion||
-## ⚙️Usage
-Please install the required dependencies:
-```bash
-pip install -r requirements.txt
-```
-## 📈Benchmarking
-We provide a script for easy benchmarking. See [examples/benchmark](examples/benchmark.ipynb) to see how to use it.
+## ⚙️Usage & 📈Benchmarking
+To start a training run and reproduce our benchmark results, you can execute the provided training scripts. We provide a script for easy benchmarking. See [examples/benchmark](examples/benchmark.ipynb) to see how to use it.
 ## 🔗Citation
 
 If you find our survey and repository useful for your research project, please consider citing our paper:
