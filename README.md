@@ -25,7 +25,7 @@ This is the official implementation for our paper:
 **🔥New**
  - **[2026.03.04]** We update GitHub to record the available paper by the end of 2026/3/4.
 
-## 🔨Installation
+### 🔨Installation
 
 To reproduce our benchmarks, you need to clone this repository and install the required dependencies. We strongly recommend using a virtual environment (e.g., Conda).
 
@@ -362,6 +362,7 @@ This survey presents the first detailed survey on modern deep learning optimizat
 |First-Order Methods|Adaptive Step-Size Control|Second-order moment adaptation|298|HomeAdam|arXiv|2026|HomeAdam: Adam and AdamW Algorithms Sometimes Go Home to Obtain Better Provable Generalization||
 |First-Order Methods|Memory-Efficient Optimization|Low-Memory Optimizer Design|299|FlashOptim|arXiv|2026|FlashOptim: Optimizers for Memory-Efficient Training||
 |Privacy-Preserving Optimization|Differential Privacy Optimization|Dynamic noise scheduling|300|DP-aware AdaLN-Zero|arXiv|2026|DP-aware AdaLN-Zero: Taming Conditioning-Induced Heavy-Tailed Gradients in Differentially Private Diffusion||
+
 ## ⚙️Usage & 📈Benchmarking
 To start a training run and reproduce our benchmark results, you can execute the provided training scripts. We provide a script for easy benchmarking. See [examples/benchmark](examples/benchmark.ipynb) to see how to use it.
 ## 🔗Citation
