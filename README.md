@@ -359,6 +359,9 @@ This survey presents the first detailed survey on modern deep learning optimizat
 |Privacy-Preserving Optimization Methods|Differential Privacy Optimization|DP-SGD Variants|295|DP-MicroAdam|arXiv|2025|DP-MicroAdam: Private and Frugal Algorithm for Training and Fine-tuning||
 |First-Order Methods|Accelerating Convergence Rate|Momentum Damping Mechanism|296|FANoS|arXiv|2026|FANoS: Friction-Adaptive Nos´e–Hoover Symplectic Momentum for Stiff Objectives||
 |First-Order Methods|Hybrid Methods|Gradient Smoothing Hybrid|297|NOVAK|arXiv|2026|NOVAK: Unified adaptive optimizer for deep neural networks||
+|First-Order Methods|Adaptive Step-Size Control|Second-order moment adaptation|298|HomeAdam|arXiv|2026|HomeAdam: Adam and AdamW Algorithms Sometimes Go Home to Obtain Better Provable Generalization||
+|First-Order Methods|Memory-Efficient Optimization|Low-Memory Optimizer Design|299|FlashOptim|arXiv|2026|FlashOptim: Optimizers for Memory-Efficient Training||
+|Privacy-Preserving Optimization|Differential Privacy Optimization|Dynamic noise scheduling|300|DP-aware AdaLN-Zero|arXiv|2026|DP-aware AdaLN-Zero: Taming Conditioning-Induced Heavy-Tailed Gradients in Differentially Private Diffusion||
 ## ⚙️Usage
 Please install the required dependencies:
 ```bash
