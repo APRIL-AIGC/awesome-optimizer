@@ -59,8 +59,7 @@ This survey presents the first detailed survey on modern deep learning optimizat
 - [🗂️Summary of Contents](#summary-of-contents)
 - [📊Methods: A Survey](#methods-a-survey)
   - [📄Taxonomy of Optimization Methods](#taxonomy-of-optimization-methods)
-- [⚙️Usage](#usage)
-- [📈Benchmarking](#benchmarking)
+- [⚙️Usage & 📈Benchmarking](#usage)
 - [🔗Citation](#citation)
 - [📫Contact](#contact)
 ## 📊Methods: A Survey
@@ -375,7 +374,7 @@ This survey presents the first detailed survey on modern deep learning optimizat
 |Privacy-Preserving Optimization|Differential Privacy Optimization|Dynamic noise scheduling|300|DP-aware AdaLN-Zero|arXiv|2026|DP-aware AdaLN-Zero: Taming Conditioning-Induced Heavy-Tailed Gradients in Differentially Private Diffusion|[Link](https://arxiv.org/abs/2602.22610)|
 |Privacy-Preserving Optimization|Differential Privacy Optimization|DP-SGD variants|301|DP-λCGD|arXiv|2026|DP-λCGD: Efficient Noise Correlation for Differentially Private Model Training|[Link](https://arxiv.org/abs/2601.22334)|
 |Distributed Optimization|Local Update Strategies|Local-global hybrid updates|302|Ringleader ASGD|arXiv|2026|First Provably Optimal Asynchronous SGD for Homogeneous and Heterogeneous Data|[Link](https://arxiv.org/abs/2601.02523)|
-## ⚙️Usage & 📈Benchmarking
+## <a id="usage"></a>## ⚙️Usage & 📈Benchmarking
 To start a training run and reproduce our benchmark results, you can execute the provided training scripts. We provide a script for easy benchmarking. See [examples/benchmark](examples/benchmark.ipynb) to see how to use it.
 ## 🔗Citation
 
