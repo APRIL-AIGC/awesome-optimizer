@@ -5,8 +5,13 @@
 
 <div align="center">
 
-[![arXiv](https://img.shields.io/badge/arXiv-Coming_Soon-b31b1b?style=for-the-badge&logo=arxiv)](https://arxiv.org/)
-[![Torch Hub Support](https://img.shields.io/badge/torch_hub-gray?style=for-the-badge&logo=pytorch)](#torch-hub) [![Github](https://img.shields.io/badge/awesome--optimizer-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/APRIL-AIGC/awesome-optimizer)
+<a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome list badge"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="LICENSE"></a>
+[![arXiv](https://img.shields.io/badge/arXiv-Coming_Soon-b31b1b?)](https://arxiv.org/)
+<a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome"></a>
+<a href="img/static/wechat_group.jpg"><img src="https://img.shields.io/badge/Group-WeChat-07c160?logo=wechat&logoColor=white" alt="WeChat Group"></a>
+[![Github](https://img.shields.io/badge/awesome--optimizer-000000?)](https://github.com/APRIL-AIGC/awesome-optimizer)
+
 
 </div>
 
@@ -63,6 +68,11 @@ We conduct comprehensive **theoretical analysis** and standardized **empirical e
 
 ## 🚩Timeline
 
+<img src="assets/optim_repersent_drawing.png" width.="1000px">
+
+> **Timeline of prominent optimization algorithms**. The evolution highlights key algorithmic milestones, associated research institutions, and publication venues over time.
+
+---
 
 
 ## 🏗️ Architecture Overview
@@ -87,11 +97,10 @@ We conduct comprehensive **theoretical analysis** and standardized **empirical e
 
 ---
 
-**🔥Add Your Paper in our Survey!!!!!**
-
+**🔥Add Your Paper in our Survey!!!!!
 [-] You are welcome to give us an issue or PR for your optimizer work !!!!!
 
-[-] Note that: Due to the huge paper in Arxiv, we are sorry to cover all in our survey. You can directly present a PR into this repo and we will record it for next version update of our survey.
+[-] Note that: Due to the huge paper in arXiv, we are sorry to cover all in our survey. You can directly present a PR into this repo and we will record it for next version update of our survey.
 
 **🔥New**
  - **[2026.04.13]** We update GitHub to record the available paper by the end of 2026/4/13.
@@ -111,14 +120,17 @@ pip install -r requirements.txt
 
 ## 🗂️Taxonomy of Optimization Algorithms
 
-- [📄Taxonomy of Optimization Methods](#taxonomy-of-optimization-methods)
-- [⚙️Usage & 📈Benchmarking](#usage)
-- [🔗Citation](#citation)
-- [📫Contact](#contact)
+- [🚀 First-Order Algorithms](#fo)
+- [⚙️ Second-Order Algorithms](#so)
+- [📍 Zeroth-Order Algorithms](#zo)
+- [🌐 Distributed Optimization](#do)
+- [🛡️ Privacy-Preserving Optimization](#po)
+- [⚡ Memory-Efficient Optimization](#mo)
+- [🧩 Tailored Optimization Approaches](#to)
 
 ---
 
-### 🚀 First-Order Algorithms
+### <a id="fo"></a>🚀 First-Order Algorithms
 
 | Abbreviation | Venue & Year | Paper Title | Project | Sub-methods | Fine-grained Methods | 
 | --- | --- | --- | --- | --- | --- | 
@@ -278,7 +290,7 @@ pip install -r requirements.txt
 | SGDM | ![ICML'13](https://img.shields.io/badge/ICML'13-dfb317?labelColor=dfb317&color=dfb317&logoColor=1a202c) | On the importance of initialization and momentum in deep learning | [Link](https://proceedings.mlr.press/v28/sutskever13.html) | Momentum-Enhanced SGD | Accelerated Momentum | 
 | AdaDelta | ![arXiv'12](https://img.shields.io/badge/arXiv'12-d9534f) | ADADELTA:ANADAPTIVELEARNINGRATEMETHOD | [Link](https://arxiv.org/abs/1212.5701) | Adaptive Learning Rate Methods | Second-Order Moment Adaptation | 
 | AdaGrad | ![JMLR'11](https://img.shields.io/badge/JMLR'11-0275d8) | Adaptive Subgradient Methods for Online Learning and Stochastic Optimization | [Link](https://jmlr.org/papers/v12/duchi11a.html) | Adaptive Learning Rate Methods | Second-Order Moment Adaptation | 
-### ⚙️ Second-Order Algorithms
+### <a id="so"></a>⚙️ Second-Order Algorithms
 
 | Abbreviation | Venue & Year | Paper Title | Project | Sub-methods | Fine-grained Methods | 
 | --- | --- | --- | --- | --- | --- | 
@@ -312,7 +324,7 @@ pip install -r requirements.txt
 | L-BFGS | ![Math.Comput.'1980](https://img.shields.io/badge/Math.Comput.'1980-0275d8) | Updating quasi-newton matrices with limited storage |  | Quasi-Newton Methods | Stochastic BFGS | 
 | Gauss-Newton Method | ![Biometrika'1974](https://img.shields.io/badge/Biometrika'1974-0275d8) | Quasi-Likelihood Functions, Generalized Linear Models, and the Gauss-Newton Method |  | Hessian Approximation & Estimation |  |
 
-### 📍 Zeroth-Order Algorithms
+### <a id="zo"></a>📍 Zeroth-Order Algorithms
 
 | Abbreviation | Venue & Year | Paper Title | Project | Sub-methods | Fine-grained Methods | 
 | --- | --- | --- | --- | --- | --- | 
@@ -344,7 +356,7 @@ pip install -r requirements.txt
 | TOP-DP | ![IEEE Trans'21](https://img.shields.io/badge/IEEE%20Trans'21-0275d8) | Topology-aware Differential Privacy for Decentralized Image Classification | [Link](https://arxiv.org/abs/2006.07817) | Distributed Zero-Order Optimization； Differential Privacy Optimization | Privacy-Preserving Zeroth-Order； DP-SGD Variants； Dynamic Noise Scheduling； Privacy-Utility Balance |
 | SPSA | ![ACC'01](https://img.shields.io/badge/ACC'01-dfb317?labelColor=dfb317&color=dfb317&logoColor=1a202c) | Global random optimization by simultaneous perturbation stochastic approximation |  | Perturbation Optimization | Paired Perturbation Sampling | 
 
-### 🌐 Distributed Optimization
+### <a id="do"></a>🌐 Distributed Optimization
 
 | Abbreviation | Venue | Year | Paper Title | Project | Sub-methods | Fine-grained Methods | 
 | --- | --- | --- | --- | --- | --- | --- |
@@ -403,7 +415,7 @@ pip install -r requirements.txt
 | LD-SGD | ![arXiv'19](https://img.shields.io/badge/arXiv'19-d9534f) | Communication-Efficient Local Decentralized SGD Methods | [Link](https://arxiv.org/abs/1910.09126) | Decentralized Communication | Neighbor Communication Topology | 
 | signSGD | ![ICML'18](https://img.shields.io/badge/ICML'18-dfb317?labelColor=dfb317&color=dfb317&logoColor=1a202c) | signSGD: Compressed Optimisation for Non-Convex Problems | [Link](https://proceedings.mlr.press/v80/bernstein18a.html) | Gradient Compression & Quantization | Quantization Compression |
 
-### 🛡️ Privacy-Preserving Optimization
+### <a id="po"></a>🛡️ Privacy-Preserving Optimization
 
 | Abbreviation | Venue | Year | Paper Title | Project | Sub-methods | Fine-grained Methods |
 | --- | --- | --- | --- | --- | --- | --- | 
@@ -429,7 +441,7 @@ pip install -r requirements.txt
 | DP-SGD-JL | ![NeurIPS'21](https://img.shields.io/badge/NeurIPS'21-dfb317?labelColor=dfb317&color=dfb317&logoColor=1a202c) | Fast and Memory Efficient Differentially Private-SGD via JL Projections | [Link](https://arxiv.org/abs/2102.03013) | Differential Privacy Optimization | DP-SGD Variants |
 | TOP-DP | ![IEEE Trans'21](https://img.shields.io/badge/IEEE%20Trans'21-0275d8) | Topology-aware Differential Privacy for Decentralized Image Classification | [Link](https://arxiv.org/abs/2006.07817) | Distributed Zero-Order Optimization； Differential Privacy Optimization | Privacy-Preserving Zeroth-Order； DP-SGD Variants； Dynamic Noise Scheduling； Privacy-Utility Balance | 
 | DP-LSSGD | ![PMLR'20](https://img.shields.io/badge/PMLR'20-0275d8) | DP-LSSGD: A Stochastic Optimization Method to Lift the Utility in Privacy-Preserving ERM | [Link](https://arxiv.org/abs/1906.12056) | Privacy-Utility Tradeoff | Post-Processing Optimization | 
-### ⚡ Memory-Efficient Optimization
+### <a id="mo"></a>⚡ Memory-Efficient Optimization
 
 | Abbreviation | Venue | Year | Paper Title | Project | Sub-methods | Fine-grained Methods | 
 | --- | --- | --- | --- | --- | --- | --- | 
@@ -455,7 +467,7 @@ pip install -r requirements.txt
 | AdaBFE | ![arXiv'22](https://img.shields.io/badge/arXiv'22-d9534f) | BFE and AdaBFE: A New Approach in Learning Rate Automation for Stochastic Optimization | [Link](https://arxiv.org/abs/2207.02763) | Learning Rate Scheduling； Stateless Optimization Methods | Gradient Angle Scheduling； Parameter Characteristic-Driven Updates | 
 | Adafactor | ![ICML'18](https://img.shields.io/badge/ICML'18-dfb317?labelColor=dfb317&color=dfb317&logoColor=1a202c) | Adafactor: Adaptive Learning Rates with Sublinear Memory Cost | [Link](https://arxiv.org/abs/1804.04235) | Low-Memory Optimizer Design； Optimizer State Compression | Compression&Approximation of States； State Sharing |
 
-### 🧩 Tailored Optimization Approaches
+### <a id="to"></a>🧩 Tailored Optimization Approaches
 
 | Abbreviation | Venue & Year | Paper Title | Project | Sub-methods | Fine-grained Methods | 
 | --- | --- | --- | --- | --- | --- | 
@@ -471,8 +483,21 @@ pip install -r requirements.txt
 | HyperAdam | ![AAAI'19](https://img.shields.io/badge/AAAI'19-dfb317?labelColor=dfb317&color=dfb317&logoColor=1a202c) | HyperAdam: A Learnable Task-Adaptive Adam for Network Training | [Link](https://arxiv.org/abs/1811.08996) | Auto-Designed Optimizers | Evolutionary Strategies&Meta-Adaptive Learning | 
 | GADAM | ![arXiv'18](https://img.shields.io/badge/arXiv'18-d9534f) | GADAM: Genetic-Evolutionary ADAM for Deep Neural Network Optimization | [Link](https://arxiv.org/abs/1805.07500) | Auto-Designed Optimizers | Evolutionary Strategies&Meta-Adaptive Learning |
 
+## 🔬Future Prospect
 
-## <a id="usage"></a> ⚙️Usage & 📈Benchmarking
+### Challenges
+ >- **⚖️ Multi-objective Trade-off Bottlenecks**: Optimizing large models often forces a choice between convergence speed, memory efficiency, and distributed scaling, which can sacrifice generalization, introduce latency, or exacerbate instability. The core challenge is breaking these interconnected bottlenecks under a unified framework.
+ >- **💾 Memory and Computational Overheads**: Dense optimizer states create severe memory bottlenecks. Structural approximations, such as matrix inversions, significantly decrease global efficiency, and per-step computational latency often negates theoretical advantages in iteration count.
+ >- **🔊 Noise Amplification and Estimation Variance**: Anisotropic loss landscapes heavily amplify stochastic mini-batch noise. Random perturbations used for directional gradients suffer from approximation variance that scales poorly with dimensionality, and privacy-preserving noise degrades gradient fidelity.
+### Trends
+ >- **🤖 Automated Symbolic Discovery**: Shifting from fragile heuristic tuning to the automated generation of architecture-specific optimizers, enabling models to inherently navigate complex loss landscapes without manual intervention.
+ >- **🧮 Preconditioning and Orthogonalization**: Leveraging structural gradient statistics for preconditioning or matrix orthogonalization (e.g., Kron and Muon) to overcome the representational bottlenecks of simple diagonal scaling and open novel parameter space pathways.
+### Opptunities
+ >- **🧩 Deep Integration of Multi-Order Algorithms**: Moving beyond isolated algorithmic improvements by deeply integrating FO, SO, and ZO algorithms. The fundamental focus will shift from minimizing iteration complexity to improving global wall-clock efficiency.
+ >- **🧭 Dimensionality-Robust Subspace Projection**: Discovering advanced subspace projection methods that safely constrain massive search spaces without prematurely restricting algorithmic access to high-quality global solutions.
+ >- **⚖️ State Fidelity Preservation**: Designing future memory-efficient architectures to smoothly average out extreme gradient shocks without exceeding memory limits.
+
+## ⚙️Usage & 📈Benchmarking
 To start a training run and reproduce our benchmark results, you can execute the provided training scripts. We provide a script for easy benchmarking. See [examples/benchmark](examples/benchmark.ipynb) to see how to use it.
 
 ## 🔗Citation
