@@ -14,17 +14,70 @@ This is the official implementation for our paper:
 .
 [Jiangning Zhang](https://zhangzjn.github.io)\*
 .
-[Junwei Zhu](https://hmzjwhmzjw.github.io/)†
-.
 [Zhucun Xue](https://scholar.google.com/citations?user=m3KDreEAAAAJ&hl=zh-CN)
+.
+[Juntao Jiang](https://github.com/juntaoJianggavin)
+.
+[Yicheng Xu](https://github.com/xuyicheng-zju)
+.
+[Chengming Xu](https://chmxu.github.io/)
+.
+[Teng Hu](https://scholar.google.com/citations?user=Jm5qsAYAAAAJ&hl=zh-CN)
+.
+[Xingyu Xie](https://scholar.google.com/citations?user=BpFCmZMAAAAJ&hl=zh-CN)
+.
+[Xiaobin Hu](https://scholar.google.com/citations?user=3lMuodUAAAAJ&hl=en)†
+.
+[Yabiao Wang](https://scholar.google.com/citations?user=xiK4nFUAAAAJ&hl=zh-CN)
 .
 [Yong Liu](https://scholar.google.com/citations?user=qYcgBbEAAAAJ&hl=zh-CN)
 .
-[Dacheng Tao](https://scholar.google.com/citations?user=RwlJNLcAAAAJ&hl=zh-TW)
+[Shuicheng Yan](https://scholar.google.com/citations?user=DNuiPHwAAAAJ&hl=en)
 .
 
 \*: Equal contribution.
  †: Corresponding author.
+
+---
+
+## 📖 Overview
+
+Foundational optimization algorithms are the core driving force behind deep learning, evolving from early stochastic gradient descent (SGD) to the widely adopted Adam family. However, as the scale of modern foundation models grows massively, this optimization paradigm is forced to expand, encountering new physical and systemic bottlenecks during large-scale training. In particular, stringent differential privacy requirements and distributed training paradigms have exposed critical limitations of conventional approaches regarding privacy protection and memory efficiency.
+
+However, existing reviews on optimization algorithms often focus on narrow technical fields, e.g., first-order and second-order, lacking a comprehensive perspective on the field's evolution, especially regarding **Zeroth-order** and **Scenario-oriented paradigms**.
+
+To address these gaps, this survey provides a **systematic review** of the development of optimization algorithmss, tracing its evolution through **four major paradigms**:
+
+> **First-order methods** → **Second-order methods** → **Zeroth-order methods** → **Scenario-oriented paradigms** 
+
+We conduct comprehensive **theoretical analysis** and standardized **empirical evaluations**, objectively pointing out the pros, cons, and fundamental design trade-offs of various methods across different architectures. By synthesizing theoretical insights with extensive empirical evidence, we distill key developmental trends and provides actionable guidance and future research directions for designing next-generation efficient, robust, and trustworthy optimization algorithms.
+
+### 🎯 Key Contributions
+
+1️⃣ **Comprehensive Coverage**: Systematic review of the four core paradigms of deep learning optimization - 🚀 First-Order methods, ⚙️ Second-Order methods, 🎯 Zeroth-Order methods, and 🌍 Scenario-Driven optimization frameworks.
+  - 📊 **Unified mathematical taxonomy** clarifying the complex internal logic and connections of algorithms from low-level gradient-driven updates to high-level system co-designs.
+  - 🔬 **Standardized cross-architecture empirical evaluation** conducting rigorous controlled benchmarking on 23 representative optimizers across continuous vision tasks (ResNet, ViT) and discrete causal language modeling (Llama).
+
+2️⃣ **Historical Perspective**: Traces the complete evolutionary trajectory of optimization algorithms, extending from early foundational SGD and the Adam family to novel architectures designed to tackle the challenges of modern massive-parameter foundation models.
+  - 📈 **Systematic analysis of technological breakthroughs** detailing the fundamental re-architecting algorithms have undergone to overcome the "memory wall," distributed communication barriers, and strict data privacy constraints.
+  - 🔍 **In-depth comparative assessment** objectively isolating and quantifying the core design trade-offs of optimizers at each evolutionary stage regarding learning rate sensitivity, scalability, and cross-architecture generalization capabilities.
+
+3️⃣ **Future Insights**: Provides strategic guidance and an actionable roadmap for designing next-generation efficient, robust, and trustworthy optimization algorithms.
+  - 🚀 **Overcoming physical and systemic bottlenecks** pinpointing key breakthrough directions such as hardware-algorithm co-design, structured preconditioning, and memory-efficient/low-rank adaptive optimization in large-scale LLM training.
+  - 🔮 **Next-generation optimizer architecture exploration** forward-looking blueprints for constructing future algorithms through automated symbolic discovery, exact noise cancellation mechanisms.
+
+---
+
+## 🏗️ Architecture Overview
+
+### 🗂️ **A Comprehensive Taxonomy of Optimization Algorithms**
+
+<img src="assets/drawing_main.png" width.="1000px">
+
+> **📐 Taxonomy Overview**: This framework categorizes existing works based on three dominant paradigms, First-Order Methods, Second-Order Methods, and Zeroth-Order Methods, and further structures them according to their fundamental mathematical principles and evolutionary development. Key branches include:
+> - First-Order Methods: Gradient-Driven (e.g., SGD) $\rightarrow$ Adaptive Learning Rate (e.g., Adam) $\rightarrow$ Acceleration to Automation (e.g., Adan, Nadam) $\rightarrow$ Scalar to Preconditioner (e.g., Shampoo) $\rightarrow$ Stability to Temporal (e.g., SPAM) $\rightarrow$ Temporal to Geometry (e.g., SAM).
+> - Second-Order Methods: Deterministic Curvature to Geometry (e.g., K-FAC, AdaFisher) $\rightarrow$ Approximation to Iterative Update (e.g., ADAHESSIAN).
+> - Zeroth-Order Methods: Perturbation Optimization (e.g., FZOO, LeZO) $\rightarrow$ Adaptive to Resource-Aware (e.g., MeZO, ZO-AdaMM) $\rightarrow$ Variance Reduction to Adaptive (e.g., MeZO-SVRG).
 
 **🔥Add Your Paper in our Survey!!!!!**
 
@@ -49,9 +102,6 @@ pip install -r requirements.txt
 ```
 
 ## 📌Introduction
-This survey presents the first detailed survey on modern deep learning optimization methods, including adaptive methods (e.g., AdamW), sign-based optimization (e.g., Lion), memory-efficient optimizers for Large Language Models, and specific optimization methods for FL and DL.
-
-<img src="assets/drawing_main.png" width.="1000px">
 
 ## 🗂️Summary of Contents
 
