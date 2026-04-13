@@ -5,7 +5,8 @@
 
 <div align="center">
 
-[![Torch Hub Support](https://img.shields.io/badge/torch_hub-gray?style=for-the-badge&logo=pytorch)](#torch-hub) [![Github](https://img.shields.io/badge/awesome--optimizer-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JZhangTon/awesome-optimizer)
+[![arXiv](https://img.shields.io/badge/arXiv-Coming_Soon-b31b1b?style=for-the-badge&logo=arxiv)](https://arxiv.org/)
+[![Torch Hub Support](https://img.shields.io/badge/torch_hub-gray?style=for-the-badge&logo=pytorch)](#torch-hub) [![Github](https://img.shields.io/badge/awesome--optimizer-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/APRIL-AIGC/awesome-optimizer)
 
 </div>
 
@@ -75,9 +76,20 @@ We conduct comprehensive **theoretical analysis** and standardized **empirical e
 <img src="assets/drawing_main.png" width.="1000px">
 
 > **📐 Taxonomy Overview**: This framework categorizes existing works based on three dominant paradigms, First-Order Methods, Second-Order Methods, and Zeroth-Order Methods, and further structures them according to their fundamental mathematical principles and evolutionary development. Key branches include:
-> - First-Order Methods: Gradient-Driven (e.g., SGD) $\rightarrow$ Adaptive Learning Rate (e.g., Adam) $\rightarrow$ Acceleration to Automation (e.g., Adan, Nadam) $\rightarrow$ Scalar to Preconditioner (e.g., Shampoo) $\rightarrow$ Stability to Temporal (e.g., SPAM) $\rightarrow$ Temporal to Geometry (e.g., SAM).
-> - Second-Order Methods: Deterministic Curvature to Geometry (e.g., K-FAC, AdaFisher) $\rightarrow$ Approximation to Iterative Update (e.g., ADAHESSIAN).
-> - Zeroth-Order Methods: Perturbation Optimization (e.g., FZOO, LeZO) $\rightarrow$ Adaptive to Resource-Aware (e.g., MeZO, ZO-AdaMM) $\rightarrow$ Variance Reduction to Adaptive (e.g., MeZO-SVRG).
+> - 🚀 First-Order Methods: Gradient-Driven (e.g., SGD) $\rightarrow$ Adaptive Learning Rate (e.g., Adam) $\rightarrow$ Acceleration to Automation (e.g., Adan, Nadam) $\rightarrow$ Scalar to Preconditioner (e.g., Shampoo) $\rightarrow$ Stability to Temporal (e.g., SPAM) $\rightarrow$ Temporal to Geometry (e.g., SAM).
+> - ⚙️ Second-Order Methods: Deterministic Curvature to Geometry (e.g., K-FAC, AdaFisher) $\rightarrow$ Approximation to Iterative Update (e.g., ADAHESSIAN).
+> - 🎯 Zeroth-Order Methods: Perturbation Optimization (e.g., FZOO, LeZO) $\rightarrow$ Adaptive to Resource-Aware (e.g., MeZO, ZO-AdaMM) $\rightarrow$ Variance Reduction to Adaptive (e.g., MeZO-SVRG).
+
+### 📊 **Benchmark Evaluation Results on Vision Tasks**
+
+<img src="assets/100_300lidar_1.png" width.="1000px">
+
+> **📈 Benchmark Evaluation**: This comprehensive assessment evaluates 23 representative optimization algorithms across continuous vision architectures (ViT-S and ResNet-50) and varying training horizons:
+> - ⏱️ Short-Term Convergence (100 Epochs): Evaluates the rapid descent capability and initial exploration efficiency of optimizers within a constrained computational budget.
+> - 🏃 Long-Term Scalability (300 Epochs): Assesses the algorithm's resilience against late-stage gradient noise and its capacity to continually extract representational power over extended cycles.
+> - 📊 Ranking Dynamics: Tracks relative performance shifts across epochs, highlighting how algorithms dynamically navigate the trade-off between early acceleration and long-term stability.
+
+---
 
 **🔥Add Your Paper in our Survey!!!!!**
 
@@ -86,7 +98,7 @@ We conduct comprehensive **theoretical analysis** and standardized **empirical e
 [-] Note that: Due to the huge paper in Arxiv, we are sorry to cover all in our survey. You can directly present a PR into this repo and we will record it for next version update of our survey.
 
 **🔥New**
- - **[2026.03.04]** We update GitHub to record the available paper by the end of 2026/3/4.
+ - **[2026.04.13]** We update GitHub to record the available paper by the end of 2026/4/13.
 
 ### 🔨Installation
 
@@ -101,23 +113,16 @@ cd awesome-optimizer
 pip install -r requirements.txt
 ```
 
-## 📌Introduction
-
 ## 🗂️Summary of Contents
 
-- [📌Introduction](#introduction)
-- [🗂️Summary of Contents](#summary-of-contents)
-- [📊Methods: A Survey](#methods-a-survey)
-  - [📄Taxonomy of Optimization Methods](#taxonomy-of-optimization-methods)
+- [📄Taxonomy of Optimization Methods](#taxonomy-of-optimization-methods)
 - [⚙️Usage & 📈Benchmarking](#usage)
+- [📈Timeline & Evolution](#timeline)
 - [🔗Citation](#citation)
 - [📫Contact](#contact)
-## 📊Methods: A Survey
-**🗝️Keywords**
 
-- `Gradient Descent(GD).`: The Gradient Descent algorithm is an iterative optimization process applied to a differentiable loss function.
-- `Momentum.`: Alongside the standard gradient update, Momentum includes a velocity vector that accumulates past gradients to smooth out the optimization trajectory.
-- `Adaptive Methods.`: The Adaptive Methods are a collection of algorithms that adjust the learning rate based on parameter granularity or structure.
+---
+
 ### 📄Taxonomy of Optimization Methods
 |Optimizer Taxonomy|Sub-methods|Fine-grained Methods|idx|Abbreviation|Venue|Year|Paper Title|Project|
 |---|---|---|:-:|:-:|:-:|:-:|---|---|
@@ -424,19 +429,27 @@ pip install -r requirements.txt
 |Privacy-Preserving Optimization|Differential Privacy Optimization|Dynamic noise scheduling|300|DP-aware AdaLN-Zero|arXiv|2026|DP-aware AdaLN-Zero: Taming Conditioning-Induced Heavy-Tailed Gradients in Differentially Private Diffusion|[Link](https://arxiv.org/abs/2602.22610)|
 |Privacy-Preserving Optimization|Differential Privacy Optimization|DP-SGD variants|301|DP-λCGD|arXiv|2026|DP-λCGD: Efficient Noise Correlation for Differentially Private Model Training|[Link](https://arxiv.org/abs/2601.22334)|
 |Distributed Optimization|Local Update Strategies|Local-global hybrid updates|302|Ringleader ASGD|arXiv|2026|First Provably Optimal Asynchronous SGD for Homogeneous and Heterogeneous Data|[Link](https://arxiv.org/abs/2601.02523)|
-## <a id="usage"></a>## ⚙️Usage & 📈Benchmarking
+## <a id="usage"></a> ⚙️Usage & 📈Benchmarking
 To start a training run and reproduce our benchmark results, you can execute the provided training scripts. We provide a script for easy benchmarking. See [examples/benchmark](examples/benchmark.ipynb) to see how to use it.
+## <a id="timeline"></a> 📈 Timeline & Evolution
+
+<img src="assets/optim_count.png" width.="1000px">
+
+> **📈 A Comprehensive Analysis of Optimization Methods**: This figure systematically summarizes the development trends and core characteristics of optimization methodologies across different orders.
+ > - **Key Insights**:Attention to optimization algorithms experienced a sharp increase since 2024. This explosive growth is closely tied to the rapid development of massive models, with first-order methods maintaining a dominant position.
+
+---
+
 ## 🔗Citation
 
 If you find our survey and repository useful for your research project, please consider citing our paper:
 
 ```bibtex
-@misc{zhang2026optimsurvey,
+@article{zhang2026optimsurvey,
       title={Evolution of Optimization Methods: Algorithms, Scenarios, and Evaluations},
-      author={Tong Zhang, Jiangning Zhang, Junwei Zhu, Zhucun Xue, Yong Liu, Dacheng Tao},
-      year={2026},
-      publisher={GitHub},
-      howpublished={\url{https://github.com/JZhangTon/awesome-optimizer}}
+      author={Tong Zhang, Jiangning Zhang, Zhucun Xue, Juntao Jiang, Yicheng Xu, Chengming Xu, Teng Hu, Xingyu Xie, Xiaobin Hu, Yabiao Wang, Yong Liu, Shuicheng Yan},
+      journal={arXiv},
+      year={2026}
 }
 ```
 ## 📫Contact
