@@ -98,12 +98,15 @@ We conduct comprehensive **theoretical analysis** and standardized **empirical e
 ---
 
 **🔥Add Your Paper in our Survey!!!!!**
-[-] You are welcome to give us an issue or PR for your optimizer work !!!!!
 
-[-] Note that: Due to the huge paper in arXiv, we are sorry to cover all in our survey. You can directly present a PR into this repo and we will record it for next version update of our survey.
+ You are welcome to give us an issue or PR for your optimizer work !!!!!
+
+ Note that: Due to the huge paper in arXiv, we are sorry to cover all in our survey. You can directly present a PR into this repo and we will record it for next version update of our survey.
 
 **🔥New**
  - **[2026.04.13]** We update GitHub to record the available paper by the end of 2026/4/13.
+
+---
 
 ### 🔨Installation
 
@@ -118,6 +121,8 @@ cd awesome-optimizer
 pip install -r requirements.txt
 ```
 
+---
+
 ## 🗂️Taxonomy of Optimization Algorithms
 
 - [🚀 First-Order Algorithms](#fo)
@@ -127,8 +132,6 @@ pip install -r requirements.txt
 - [🛡️ Privacy-Preserving Optimization](#po)
 - [⚡ Memory-Efficient Optimization](#mo)
 - [🧩 Tailored Optimization Approaches](#to)
-
----
 
 ### <a id="fo"></a>🚀 First-Order Algorithms
 
