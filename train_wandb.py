@@ -675,7 +675,7 @@ def main():
 
     dataset_train = create_dataset(
         args.dataset,
-        root="/z_datasets/imagenet/train",
+        root=args.data_dir,
         split=args.train_split,
         is_training=True,
         class_map=args.class_map,
@@ -694,7 +694,7 @@ def main():
     if args.val_split:
         dataset_eval = create_dataset(
             args.dataset,
-            root="/z_datasets/imagenet/val",
+            root=args.data_dir,
             split=args.val_split,
             is_training=False,
             class_map=args.class_map,
