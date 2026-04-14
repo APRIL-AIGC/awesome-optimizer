@@ -516,7 +516,6 @@ If you find our survey and repository useful for your research project, please c
 
 ```
 186368@zju.edu.cn
-
 ```
 
 <!--[![Star History Chart](https://api.star-history.com/svg?repos=APRIL-AIGC/awesome-optimizer&type=Date)](https://star-history.com/#APRIL-AIGC/awesome-optimizer&Date) -->
