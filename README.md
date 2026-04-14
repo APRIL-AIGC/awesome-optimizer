@@ -117,6 +117,8 @@ cd awesome-optimizer
 # 2. Install required packages
 pip install -r requirements.txt
 ```
+### ⚙️Usage & 📈Benchmarking
+>- To start a training run and reproduce our benchmark results, you can execute the provided training scripts. We provide a script for easy benchmarking. See [examples/benchmark](examples/benchmark.ipynb) to see how to use it.
 
 ---
 
@@ -358,8 +360,8 @@ pip install -r requirements.txt
 
 ### <a id="do"></a>🌐 Distributed Optimization
 
-| Abbreviation | Venue | Year | Paper Title | Project | Sub-methods | Fine-grained Methods | 
-| --- | --- | --- | --- | --- | --- | --- |
+| Abbreviation | Venue & Year | Paper Title | Project | Sub-methods | Fine-grained Methods | 
+| --- | --- | --- | --- | --- | --- | 
 | Ringleader ASGD | ![arXiv'26](https://img.shields.io/badge/arXiv'26-d9534f) | First Provably Optimal Asynchronous SGD for Homogeneous and Heterogeneous Data | [Link](https://arxiv.org/abs/2601.02523) | Local Update Strategies | Local-global hybrid updates | 
 | Interleaved-ShuffleG | ![arXiv'25](https://img.shields.io/badge/arXiv'25-d9534f) | The Cost of Shuffling in Private Gradient Based Optimization | [Link](https://arxiv.org/abs/2502.03652) | Decentralized Communication； Differential Privacy Optimization | Privacy-Preserving Decentralization； Privacy-Utility Balance | 
 | DOME | ![arXiv'25](https://img.shields.io/badge/arXiv'25-d9534f) | Communication Efficient, Differentially Private Distributed Optimization using Correlation-Aware Sketching | [Link](https://arxiv.org/abs/2507.03545) | Gradient Compression & Quantization | Low-Rank Gradient Compression | 
@@ -417,8 +419,8 @@ pip install -r requirements.txt
 
 ### <a id="po"></a>🛡️ Privacy-Preserving Optimization
 
-| Abbreviation | Venue | Year | Paper Title | Project | Sub-methods | Fine-grained Methods |
-| --- | --- | --- | --- | --- | --- | --- | 
+| Abbreviation | Venue & Year| Paper Title | Project | Sub-methods | Fine-grained Methods |
+| --- | --- | --- | --- | --- | --- |
 | DP-aware AdaLN-Zero | ![arXiv'26](https://img.shields.io/badge/arXiv'26-d9534f) | DP-aware AdaLN-Zero: Taming Conditioning-Induced Heavy-Tailed Gradients in Differentially Private Diffusion | [Link](https://arxiv.org/abs/2602.22610) | Differential Privacy Optimization | Dynamic noise scheduling | 
 | DP-λCGD | ![arXiv'26](https://img.shields.io/badge/arXiv'26-d9534f) | DP-λCGD: Efficient Noise Correlation for Differentially Private Model Training | [Link](https://arxiv.org/abs/2601.22334) | Differential Privacy Optimization | DP-SGD variants | 
 | Stable-SPAM | ![ICLR'25](https://img.shields.io/badge/ICLR'25-dfb317?labelColor=dfb317&color=dfb317&logoColor=1a202c) | Stable-SPAM: How to Train in 4-Bit More Stably than 16-Bit Adam | [Link](https://arxiv.org/abs/2502.17055) | Gradient Normalization & Clipping； Privacy-Aware Gradient Clipping | Layer-Wise Gradient Normalization； Dynamic Gradient Clipping； Adaptive Clipping | 
@@ -443,8 +445,8 @@ pip install -r requirements.txt
 | DP-LSSGD | ![PMLR'20](https://img.shields.io/badge/PMLR'20-0275d8) | DP-LSSGD: A Stochastic Optimization Method to Lift the Utility in Privacy-Preserving ERM | [Link](https://arxiv.org/abs/1906.12056) | Privacy-Utility Tradeoff | Post-Processing Optimization | 
 ### <a id="mo"></a>⚡ Memory-Efficient Optimization
 
-| Abbreviation | Venue | Year | Paper Title | Project | Sub-methods | Fine-grained Methods | 
-| --- | --- | --- | --- | --- | --- | --- | 
+| Abbreviation | Venue & Year | Paper Title | Project | Sub-methods | Fine-grained Methods | 
+| --- | --- | --- | --- | --- | --- | 
 | AdaRankGrad | ![ICLR'25](https://img.shields.io/badge/ICLR'25-dfb317?labelColor=dfb317&color=dfb317&logoColor=1a202c) | Adarankgrad: Adaptive gradient-rank and moments for memory-efficient llms training and fine-tuning | [Link](https://arxiv.org/abs/2410.17881) | Low-Rank Methods | Projection\&Adjustment | 
 | QuZO | ![arXiv'25](https://img.shields.io/badge/arXiv'25-d9534f) | QuZO: Quantized Zeroth-Order Fine-Tuning for Large Language Models | [Link](https://arxiv.org/abs/2502.12346) | Memory-efficient Methods； Low-Rank Methods | Quantized Zeroth-Order Finetuning； Low-Rank & Quantization | 
 | SUMO | ![arXiv'25](https://img.shields.io/badge/arXiv'25-d9534f) | SUMO: Subspace-Aware Moment-Orthogonalization for Accelerating Memory-Efficient LLM Training | [Link](https://arxiv.org/abs/2505.24749) | Low-Rank Gradient Storage | Gradient Low-Rank Projection | 
@@ -496,9 +498,6 @@ pip install -r requirements.txt
  >- **🧩 Deep Integration of Multi-Order Algorithms**: Moving beyond isolated algorithmic improvements by deeply integrating FO, SO, and ZO algorithms. The fundamental focus will shift from minimizing iteration complexity to improving global wall-clock efficiency.
  >- **🧭 Dimensionality-Robust Subspace Projection**: Discovering advanced subspace projection methods that safely constrain massive search spaces without prematurely restricting algorithmic access to high-quality global solutions.
  >- **⚖️ State Fidelity Preservation**: Designing future memory-efficient architectures to smoothly average out extreme gradient shocks without exceeding memory limits.
-
-## ⚙️Usage & 📈Benchmarking
-To start a training run and reproduce our benchmark results, you can execute the provided training scripts. We provide a script for easy benchmarking. See [examples/benchmark](examples/benchmark.ipynb) to see how to use it.
 
 ## 🔗Citation
 
