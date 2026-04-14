@@ -1,7 +1,4 @@
-<p align="center">
-<h1 align="center">
-  <img src="assets/title_github.png" width="800px" alt="A Systematic Survey of Optimization Methods">
-</h1>
+# Evolution of Optimization Methods: Algorithms, Scenarios, and Evaluations
 
 <div align="center">
 
@@ -9,23 +6,23 @@
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="LICENSE"></a>
 [![arXiv](https://img.shields.io/badge/arXiv-Coming_Soon-b31b1b?)](https://arxiv.org/)
 <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome"></a>
-<a href="img/static/wechat_group.jpg"><img src="https://img.shields.io/badge/Group-WeChat-07c160?logo=wechat&logoColor=white" alt="WeChat Group"></a>
+<a href="assets/wechat_group.jpg"><img src="https://img.shields.io/badge/Group-WeChat-07c160?logo=wechat&logoColor=white" alt="WeChat Group"></a>
 [![Github](https://img.shields.io/badge/awesome--optimizer-000000?)](https://github.com/APRIL-AIGC/awesome-optimizer)
 
 
 </div>
 
 [Tong Zhang](https://scholar.google.com.hk/citations?hl=zh-CN&user=WsEUmpwAAAAJ&view_op=list_works&gmla=AF9nlQsB3CdUdRLrWHi9n_CwlbjpAQF4s01SgZMA212-nS3JzQjGGYmH_SRMgvuu1AHgiXAIw0h81427vtjl_3_IeQwZ9GUm0nlwcPbu9Jc),
-[Jiangning Zhang](https://zhangzjn.github.io)†<sup>✉️</sup>,
+[Jiangning Zhang](https://zhangzjn.github.io)†<sup><img src="https://api.iconify.design/mdi:email.svg?color=%230066cc" width="16" style="vertical-align: super;"></sup>,
 [Zhucun Xue](https://scholar.google.com/citations?user=m3KDreEAAAAJ&hl=zh-CN),
 [Juntao Jiang](https://github.com/juntaoJianggavin),
 [Yicheng Xu](https://github.com/xuyicheng-zju),
 [Chengming Xu](https://chmxu.github.io/),
 [Teng Hu](https://scholar.google.com/citations?user=Jm5qsAYAAAAJ&hl=zh-CN),
 [Xingyu Xie](https://scholar.google.com/citations?user=BpFCmZMAAAAJ&hl=zh-CN),
-[Xiaobin Hu](https://scholar.google.com/citations?user=3lMuodUAAAAJ&hl=en)†<sup>✉️</sup>,
+[Xiaobin Hu](https://scholar.google.com/citations?user=3lMuodUAAAAJ&hl=en)†,
 [Yabiao Wang](https://scholar.google.com/citations?user=xiK4nFUAAAAJ&hl=zh-CN),
-[Yong Liu](https://scholar.google.com/citations?user=qYcgBbEAAAAJ&hl=zh-CN)†<sup>✉️</sup>,
+[Yong Liu](https://scholar.google.com/citations?user=qYcgBbEAAAAJ&hl=zh-CN)†,
 [Shuicheng Yan](https://scholar.google.com/citations?user=DNuiPHwAAAAJ&hl=en)
 
 ---
@@ -518,10 +515,11 @@ If you find our survey and repository useful for your research project, please c
 ## 📫Contact
 
 ```
-22560294@zju.edu.cn
+186368@zju.edu.cn
+
 ```
 
-[![Star History Chart](https://api.star-history.com/svg?repos=JZhangTon/awesome-optimizer&type=Date)](https://star-history.com/#JZhangTon/awesome-optimizer&Date)
+<!--[![Star History Chart](https://api.star-history.com/svg?repos=APRIL-AIGC/awesome-optimizer&type=Date)](https://star-history.com/#APRIL-AIGC/awesome-optimizer&Date) -->
 
 
 
