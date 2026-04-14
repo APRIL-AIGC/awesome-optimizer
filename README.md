@@ -6,7 +6,7 @@
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="LICENSE"></a>
 [![arXiv](https://img.shields.io/badge/arXiv-Coming_Soon-b31b1b?)](https://arxiv.org/)
 <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome"></a>
-<a href="assets/wechat_group.jpg"><img src="https://img.shields.io/badge/Group-WeChat-07c160?logo=wechat&logoColor=white" alt="WeChat Group"></a>
+<a href="assets/wechat.png"><img src="https://img.shields.io/badge/Group-WeChat-07c160?logo=wechat&logoColor=white" alt="WeChat Group"></a>
 [![Github](https://img.shields.io/badge/awesome--optimizer-000000?)](https://github.com/APRIL-AIGC/awesome-optimizer)
 
 
