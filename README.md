@@ -504,11 +504,11 @@ pip install -r requirements.txt
 If you find our survey and repository useful for your research project, please consider citing our paper:
 
 ```bibtex
-@article{zhang2026optimsurvey,
-      title={Evolution of Optimization Methods: Algorithms, Scenarios, and Evaluations},
-      author={Tong Zhang, Jiangning Zhang, Zhucun Xue, Juntao Jiang, Yicheng Xu, Chengming Xu, Teng Hu, Xingyu Xie, Xiaobin Hu, Yabiao Wang, Yong Liu, Shuicheng Yan},
-      journal={arXiv},
-      year={2026}
+@article{zhang2026evolution,
+  title={Evolution of Optimization Methods: Algorithms, Scenarios, and Evaluations},
+  author={Zhang, Tong and Zhang, Jiangning and Xue, Zhucun and Jiang, Juntao and Xu, Yicheng and Xu, Chengming and Hu, Teng and Xie, Xingyu and Hu, Xiaobin and Wang, Yabiao and others},
+  journal={arXiv preprint arXiv:2604.12968},
+  year={2026}
 }
 ```
 ## 📫Contact
