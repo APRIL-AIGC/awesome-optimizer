@@ -6,7 +6,7 @@
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="LICENSE"></a>
 [![arXiv](https://img.shields.io/badge/arXiv-2604-b31b1b?)](https://arxiv.org/abs/2604.12968)
 <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome"></a>
-<a href="assets/wechat.png"><img src="https://img.shields.io/badge/Group-WeChat-07c160?logo=wechat&logoColor=white" alt="WeChat Group"></a>
+<a href="assets/wechat_51.png"><img src="https://img.shields.io/badge/Group-WeChat-07c160?logo=wechat&logoColor=white" alt="WeChat Group"></a>
 [![Github](https://img.shields.io/badge/awesome--optimizer-000000?)](https://github.com/APRIL-AIGC/awesome-optimizer)
 
 
@@ -364,6 +364,7 @@ pip install -r requirements.txt
 
 | Abbreviation | Venue & Year | Paper Title | Project | Sub-methods | Fine-grained Methods | 
 | --- | --- | --- | --- | --- | --- | 
+| FedSIR | ![arXiv'2604](https://img.shields.io/badge/arXiv'2604-d9534f) | FedSIR: Spectral Client Identification and Relabeling for Federated Learning with Noisy Labels | [Link](http://arxiv.org/abs/2604.20825v1) | Federated Learning Optimization | |
 | Ringleader ASGD | ![arXiv'2601](https://img.shields.io/badge/arXiv'2601-d9534f) | First Provably Optimal Asynchronous SGD for Homogeneous and Heterogeneous Data | [Link](https://arxiv.org/abs/2601.02523) | Local Update Strategies | Local-global hybrid updates | 
 | FedMuon | ![arXiv'2510](https://img.shields.io/badge/arXiv'2510-d9534f) | FedMuon: Accelerating Federated Learning with Matrix Orthogonalization | [Link](https://arxiv.org/abs/2510.27403) | Federated Learning Optimization | Federated Momentum Fusion | 
 | DLAS-R-FTC | ![arXiv'2508](https://img.shields.io/badge/arXiv'2508-d9534f) | Distributed Optimization and Learning for Automated Stepsize Selection with Finite Time Coordination | [Link](https://arxiv.org/abs/2508.05887) | Decentralized Communication | Distributed Consensus Optimization | 
@@ -423,6 +424,7 @@ pip install -r requirements.txt
 
 | Abbreviation | Venue & Year| Paper Title | Project | Sub-methods | Fine-grained Methods |
 | --- | --- | --- | --- | --- | --- |
+| PINA | ![arXiv'2604](https://img.shields.io/badge/arXiv'2604-d9534f) | Differentially Private Clustered Federated Learning with Privacy-Preserving Initialization and Normality-Driven Aggregation | [Link](http://arxiv.org/abs/2604.20596v1) | Differential Privacy Optimization |  |
 | DP-aware AdaLN-Zero | ![arXiv'2602](https://img.shields.io/badge/arXiv'2602-d9534f) | DP-aware AdaLN-Zero: Taming Conditioning-Induced Heavy-Tailed Gradients in Differentially Private Diffusion | [Link](https://arxiv.org/abs/2602.22610) | Differential Privacy Optimization | Dynamic noise scheduling | 
 | DP-λCGD | ![arXiv'2601](https://img.shields.io/badge/arXiv'2601-d9534f) | DP-λCGD: Efficient Noise Correlation for Differentially Private Model Training | [Link](https://arxiv.org/abs/2601.22334) | Differential Privacy Optimization | DP-SGD variants | 
 | RaCO-DP | ![arXiv'2505](https://img.shields.io/badge/arXiv'2505-d9534f) | Private Rate-Constrained Optimization with Applications to Fair Learning | [Link](https://arxiv.org/abs/2505.22703) | Differential Privacy Optimization | DP-SGD Variants | 
