@@ -6,7 +6,7 @@
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="LICENSE"></a>
 [![arXiv](https://img.shields.io/badge/arXiv-2604-b31b1b?)](https://arxiv.org/abs/2604.12968)
 <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome"></a>
-<a href="assets/wechat_51.png"><img src="https://img.shields.io/badge/Group-WeChat-07c160?logo=wechat&logoColor=white" alt="WeChat Group"></a>
+<a href="assets/wechat_514.png"><img src="https://img.shields.io/badge/Group-WeChat-07c160?logo=wechat&logoColor=white" alt="WeChat Group"></a>
 [![Github](https://img.shields.io/badge/awesome--optimizer-000000?)](https://github.com/APRIL-AIGC/awesome-optimizer)
 
 
@@ -136,6 +136,9 @@ pip install -r requirements.txt
 
 | Abbreviation | Venue & Year | Paper Title | Project | Sub-methods | Fine-grained Methods | 
 | --- | --- | --- | --- | --- | --- | 
+| Anon | ![arXiv'2605](https://img.shields.io/badge/arXiv'2605-d9534f) | Anon: Extrapolating Optimizer Adaptivity Across the Real Spectrum | [Link](http://arxiv.org/abs/2605.02317v1) | Adaptive Learning Rate Methods | |
+| PS-Clip-SGD | ![arXiv'2605](https://img.shields.io/badge/arXiv'2605-d9534f) | Robust and Fast Training via Per-Sample Clipping | [Link](http://arxiv.org/abs/2605.02701v1) | Enhancing Training Stability | |
+| Nora | ![arXiv'2605](https://img.shields.io/badge/arXiv'2605-d9534f) | Nora: Normalized Orthogonal Row Alignment for Scalable Matrix Optimizer | [Link](http://arxiv.org/abs/2605.03769v1) | Adaptive Step-Size Control | Matrix Orthogonalization |
 | HomeAdam | ![arXiv'2603](https://img.shields.io/badge/arXiv'2603-d9534f) | HomeAdam: Adam and AdamW Algorithms Sometimes Go Home to Obtain Better Provable Generalization | [Link](https://arxiv.org/abs/2603.02649) | Adaptive Step-Size Control | Second-order moment adaptation | 
 | FlashOptim | ![arXiv'2602](https://img.shields.io/badge/arXiv'2602-d9534f) | FlashOptim: Optimizers for Memory-Efficient Training | [Link](https://arxiv.org/abs/2602.23349) | Memory-Efficient Optimization | Low-Memory Optimizer Design |
 | FANoS | ![arXiv'2601](https://img.shields.io/badge/arXiv'2601-d9534f) | FANoS: Friction-Adaptive Nos´e–Hoover Symplectic Momentum for Stiff Objectives | [Link](https://arxiv.org/pdf/2601.00889) | Accelerating Convergence Rate | Momentum Damping Mechanism | 
@@ -332,6 +335,8 @@ pip install -r requirements.txt
 
 | Abbreviation | Venue & Year | Paper Title | Project | Sub-methods | Fine-grained Methods | 
 | --- | --- | --- | --- | --- | --- | 
+| AdaMeZO | ![arXiv'2605](https://img.shields.io/badge/arXiv'2605-d9534f) | AdaMeZO: Adam-style Zeroth-Order Optimizer for LLM Fine-tuning Without Maintaining the Moments | [Link](http://arxiv.org/abs/2605.00650v1) | Adaptive Methods | |
+| MEAZO | ![arXiv'2605](https://img.shields.io/badge/arXiv'2605-d9534f) | On Adaptivity in Zeroth-Order Optimization | [Link](http://arxiv.org/abs/2605.03869v1) | Memory-Efficient Methods | |
 | ZO-SAH | ![arXiv'2507](https://img.shields.io/badge/arXiv'2507-d9534f) | Subspace-based Approximate Hessian Method for Zeroth-Order Optimization | [Link](https://arxiv.org/abs/2507.06125) | Adaptive Methods | Projection-based Adaptive |
 | FZOO | ![arXiv'2506](https://img.shields.io/badge/arXiv'2506-d9534f) | FZOO: Fast Zeroth-Order Optimizer for Fine-Tuning Large Language Models towards Adam-Scale Speed | [Link](https://arxiv.org/abs/2506.09034) | Variance Reduction | Structured Variance Control | 
 | VR-SZD | ![arXiv'2506](https://img.shields.io/badge/arXiv'2506-d9534f) | A Structured Proximal Stochastic Variance Reduced Zeroth-order Algorithm | [Link](https://arxiv.org/abs/2506.23758) | Variance Reduction | Snapshot Variance Reduction | 
