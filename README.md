@@ -96,13 +96,21 @@ We conduct comprehensive **theoretical analysis** and standardized **empirical e
 
 **🔥Add Your Paper in our Survey!!!!!**
 
- You are welcome to give us an issue or PR for your optimizer work !!!!!
+ - **You are welcome to give us an issue or PR for your optimizer work !!!!!**
 
  Note that: Due to the huge paper in arXiv, we are sorry to cover all in our survey. You can directly present a PR into this repo and we will record it for next version update of our survey.
 
 **🔥New**
- - **[2026.04.13]** We update GitHub to record the available paper by the end of 2026/4/13.
+ - **[2026.05.21]** We update GitHub to record the available paper by the end of 2026/5/21.
 
+**🌟Welcome everyone to follow and join the Scaling Opt community: [Scaling Opt Community](https://tianshijing.github.io/ScalingOpt/)**
+- **Algorithm Visualizations**: Includes visualization scripts for the Rosenbrock Function and Rastrigin Function, allowing users to freely explore optimization behaviors.
+
+- **Performance Benchmarks**: We primarily recommend benchmarks based on Algoperf, along with other benchmark suites and analysis articles for validating and comparing state-of-the-art optimizers.
+
+- **Papers & Blogs Recommendations**: The platform curates high-quality papers and blog posts from recent years, continuously updated with the latest daily arXiv publications. Currently, the collection contains nearly one hundred resources.
+
+- **Tutorials Sharing**: The platform gathers high-quality community resources and is actively developing a tutorial series titled *From Classical to Modern Optimizers*.
 ---
 
 ### 🔨Installation
@@ -139,6 +147,7 @@ pip install -r requirements.txt
 | Anon | ![arXiv'2605](https://img.shields.io/badge/arXiv'2605-d9534f) | Anon: Extrapolating Optimizer Adaptivity Across the Real Spectrum | [Link](http://arxiv.org/abs/2605.02317v1) | Adaptive Learning Rate Methods | |
 | PS-Clip-SGD | ![arXiv'2605](https://img.shields.io/badge/arXiv'2605-d9534f) | Robust and Fast Training via Per-Sample Clipping | [Link](http://arxiv.org/abs/2605.02701v1) | Enhancing Training Stability | |
 | Nora | ![arXiv'2605](https://img.shields.io/badge/arXiv'2605-d9534f) | Nora: Normalized Orthogonal Row Alignment for Scalable Matrix Optimizer | [Link](http://arxiv.org/abs/2605.03769v1) | Adaptive Step-Size Control | Matrix Orthogonalization |
+| Muon^2 | ![arXiv'2604](https://img.shields.io/badge/arXiv'2604-d9534f) | Muon^2: Boosting Muon via Adaptive Second-Moment Preconditioning | [Link](https://arxiv.org/abs/2604.09967) | Adaptive Step-Size Control | Matrix Orthogonalization |
 | HomeAdam | ![arXiv'2603](https://img.shields.io/badge/arXiv'2603-d9534f) | HomeAdam: Adam and AdamW Algorithms Sometimes Go Home to Obtain Better Provable Generalization | [Link](https://arxiv.org/abs/2603.02649) | Adaptive Step-Size Control | Second-order moment adaptation | 
 | FlashOptim | ![arXiv'2602](https://img.shields.io/badge/arXiv'2602-d9534f) | FlashOptim: Optimizers for Memory-Efficient Training | [Link](https://arxiv.org/abs/2602.23349) | Memory-Efficient Optimization | Low-Memory Optimizer Design |
 | FANoS | ![arXiv'2601](https://img.shields.io/badge/arXiv'2601-d9534f) | FANoS: Friction-Adaptive Nos´e–Hoover Symplectic Momentum for Stiff Objectives | [Link](https://arxiv.org/pdf/2601.00889) | Accelerating Convergence Rate | Momentum Damping Mechanism | 
