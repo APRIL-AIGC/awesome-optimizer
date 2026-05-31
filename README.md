@@ -6,7 +6,7 @@
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="LICENSE"></a>
 [![arXiv](https://img.shields.io/badge/arXiv-2604-b31b1b?)](https://arxiv.org/abs/2604.12968)
 <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome"></a>
-<a href="assets/wechat_514.png"><img src="https://img.shields.io/badge/Group-WeChat-07c160?logo=wechat&logoColor=white" alt="WeChat Group"></a>
+<a href="assets/wechat_531.png"><img src="https://img.shields.io/badge/Group-WeChat-07c160?logo=wechat&logoColor=white" alt="WeChat Group"></a>
 [![Github](https://img.shields.io/badge/awesome--optimizer-000000?)](https://github.com/APRIL-AIGC/awesome-optimizer)
 
 
@@ -101,7 +101,7 @@ We conduct comprehensive **theoretical analysis** and standardized **empirical e
  Note that: Due to the huge paper in arXiv, we are sorry to cover all in our survey. You can directly present a PR into this repo and we will record it for next version update of our survey.
 
 **🔥New**
- - **[2026.05.21]** We update GitHub to record the available paper by the end of 2026/5/21.
+ - **[2026.05.21]** We update GitHub to record the available paper by the end of 2026/5/31.
 
 **🌟Welcome everyone to follow and join the Scaling Opt community: [Scaling Opt Community](https://tianshijing.github.io/ScalingOpt/)**
 - **Algorithm Visualizations**: Includes visualization scripts for the Rosenbrock Function and Rastrigin Function, allowing users to freely explore optimization behaviors.
@@ -144,6 +144,9 @@ pip install -r requirements.txt
 
 | Abbreviation | Venue & Year | Paper Title | Project | Sub-methods | Fine-grained Methods | 
 | --- | --- | --- | --- | --- | --- | 
+| Pion | ![arXiv'2605](https://img.shields.io/badge/arXiv'2605-d9534f) | Rethinking Muon Beyond Pretraining: Spectral Failures and High-Pass Remedies for VLA and RLVR | [Link](https://arxiv.org/pdf/2605.19282) | Spectral High Pass | Matrix Orthogonalization |
+|C-Adam|![arXiv'2605](https://img.shields.io/badge/arXiv'2605-d9534f)|A Theoretical and Experimental Study of a Novel Adaptive Learning Algorithm|[Link](https://arxiv.org/abs/2605.29273)|Adaptive Learning Rate Methods|Line-of-Sight Adam Variant|
+|SparseOpt|![arXiv'2605](https://img.shields.io/badge/arXiv'2605-d9534f)|SparseOpt: Addressing Normalization-induced Gradient Skew in Sparse Training|[Link](https://arxiv.org/abs/2605.27541)|Gradient Normalization & Clipping|Sparse Training Gradient Rebalancing|
 | Anon | ![arXiv'2605](https://img.shields.io/badge/arXiv'2605-d9534f) | Anon: Extrapolating Optimizer Adaptivity Across the Real Spectrum | [Link](http://arxiv.org/abs/2605.02317v1) | Adaptive Learning Rate Methods | |
 | PS-Clip-SGD | ![arXiv'2605](https://img.shields.io/badge/arXiv'2605-d9534f) | Robust and Fast Training via Per-Sample Clipping | [Link](http://arxiv.org/abs/2605.02701v1) | Enhancing Training Stability | |
 | Nora | ![arXiv'2605](https://img.shields.io/badge/arXiv'2605-d9534f) | Nora: Normalized Orthogonal Row Alignment for Scalable Matrix Optimizer | [Link](http://arxiv.org/abs/2605.03769v1) | Adaptive Step-Size Control | Matrix Orthogonalization |
