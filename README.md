@@ -6,7 +6,7 @@
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="LICENSE"></a>
 [![arXiv](https://img.shields.io/badge/arXiv-2604-b31b1b?)](https://arxiv.org/abs/2604.12968)
 <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome"></a>
-<a href="assets/wechat_531.png"><img src="https://img.shields.io/badge/Group-WeChat-07c160?logo=wechat&logoColor=white" alt="WeChat Group"></a>
+<a href="assets/wechat_612.png"><img src="https://img.shields.io/badge/Group-WeChat-07c160?logo=wechat&logoColor=white" alt="WeChat Group"></a>
 [![Github](https://img.shields.io/badge/awesome--optimizer-000000?)](https://github.com/APRIL-AIGC/awesome-optimizer)
 
 
@@ -101,7 +101,7 @@ We conduct comprehensive **theoretical analysis** and standardized **empirical e
  Note that: Due to the huge paper in arXiv, we are sorry to cover all in our survey. You can directly present a PR into this repo and we will record it for next version update of our survey.
 
 **🔥New**
- - **[2026.05.21]** We update GitHub to record the available paper by the end of 2026/5/31.
+ - **[2026.06.12]** We update GitHub to record the available paper by the end of 2026/6/12.
 
 **🌟Welcome everyone to follow and join the Scaling Opt community: [Scaling Opt Community](https://tianshijing.github.io/ScalingOpt/)**
 - **Algorithm Visualizations**: Includes visualization scripts for the Rosenbrock Function and Rastrigin Function, allowing users to freely explore optimization behaviors.
@@ -313,6 +313,7 @@ pip install -r requirements.txt
 
 | Abbreviation | Venue & Year | Paper Title | Project | Sub-methods | Fine-grained Methods | 
 | --- | --- | --- | --- | --- | --- | 
+| C-ALADIN | ![arXiv'2606](https://img.shields.io/badge/arXiv'2606-d9534f) | A Global Convergence Analysis of Consensus ALADIN for Convex Optimization | [Link](https://arxiv.org/abs/2606.08112) | Hessian Approximation & Estimation | Distributed Newton-Type Approximation |
 | S-BFGS | ![arXiv'2507](https://img.shields.io/badge/arXiv'2507-d9534f) | EFFICIENT STOCHASTIC BFGS METHODS INSPIRED BY BAYESIAN PRINCIPLES | [Link](https://arxiv.org/abs/2507.07729) | Quasi-Newton Methods | Stochastic BFGS | 
 | MAC | ![arXiv'2506](https://img.shields.io/badge/arXiv'2506-d9534f) | MAC: AN EFFICIENT GRADIENT PRECONDITIONING USING MEAN ACTIVATION APPROXIMATED CURVATURE | [Link](https://arxiv.org/abs/2506.08464) | Fisher Information Matrix Application | Curvature-Aware Approximation | 
 | RACS | ![arXiv'2502](https://img.shields.io/badge/arXiv'2502-d9534f) | Towards Efficient Optimizer Design for LLM via Structured Fisher Approximation with a Low-Rank Extension | [Link](https://arxiv.org/abs/2502.07752) | Fisher Information Matrix Application | Diagonal Fisher Approximation | 
@@ -381,6 +382,8 @@ pip install -r requirements.txt
 
 | Abbreviation | Venue & Year | Paper Title | Project | Sub-methods | Fine-grained Methods | 
 | --- | --- | --- | --- | --- | --- | 
+| AlignFed | ![arXiv'2606](https://img.shields.io/badge/arXiv'2606-d9534f) | AlignFed: Alignment-Aware Asynchronous Federated Fine-Tuning for Large Language Models in Heterogeneous Edge Environments | [Link](https://arxiv.org/abs/2606.08197) | Federated Learning Optimization | Asynchronous Federated Aggregation |
+| DECA | ![arXiv'2606](https://img.shields.io/badge/arXiv'2606-d9534f) | DECA: Decentralizing Block-Wise Adam for Efficient LLM Full-Parameter Fine-Tuning on Non-IID Data | [Link](https://arxiv.org/abs/2606.03209) | Federated Learning Optimization | Block-Wise Decentralized Adam |
 | FedSIR | ![arXiv'2604](https://img.shields.io/badge/arXiv'2604-d9534f) | FedSIR: Spectral Client Identification and Relabeling for Federated Learning with Noisy Labels | [Link](http://arxiv.org/abs/2604.20825v1) | Federated Learning Optimization | |
 | Ringleader ASGD | ![arXiv'2601](https://img.shields.io/badge/arXiv'2601-d9534f) | First Provably Optimal Asynchronous SGD for Homogeneous and Heterogeneous Data | [Link](https://arxiv.org/abs/2601.02523) | Local Update Strategies | Local-global hybrid updates | 
 | FedMuon | ![arXiv'2510](https://img.shields.io/badge/arXiv'2510-d9534f) | FedMuon: Accelerating Federated Learning with Matrix Orthogonalization | [Link](https://arxiv.org/abs/2510.27403) | Federated Learning Optimization | Federated Momentum Fusion | 
@@ -441,6 +444,9 @@ pip install -r requirements.txt
 
 | Abbreviation | Venue & Year| Paper Title | Project | Sub-methods | Fine-grained Methods |
 | --- | --- | --- | --- | --- | --- |
+| PrivCode++ | ![arXiv'2606](https://img.shields.io/badge/arXiv'2606-d9534f) | PrivCode++: Latent-Conditioned Differentially Private Code Generation for Comprehensive Guarantees | [Link](https://arxiv.org/abs/2606.09145) | Differential Privacy Optimization | DP Fine-Tuning for Code Generation |
+| DP-MacAdam | ![arXiv'2606](https://img.shields.io/badge/arXiv'2606-d9534f) | DP-MacAdam: Differentially Private Mechanism with Adaptive Clipping and Adaptive Momentum | [Link](https://arxiv.org/abs/2606.05435) | Differential Privacy Optimization | Adaptive Clipping and Momentum |
+| DPSR-CG | ![arXiv'2606](https://img.shields.io/badge/arXiv'2606-d9534f) | Revisiting Privacy Amplification by Subsampling in Selective Release DPSGD | [Link](https://arxiv.org/abs/2606.04384) | Differential Privacy Optimization | Selective Release DP-SGD |
 | PINA | ![arXiv'2604](https://img.shields.io/badge/arXiv'2604-d9534f) | Differentially Private Clustered Federated Learning with Privacy-Preserving Initialization and Normality-Driven Aggregation | [Link](http://arxiv.org/abs/2604.20596v1) | Differential Privacy Optimization |  |
 | DP-aware AdaLN-Zero | ![arXiv'2602](https://img.shields.io/badge/arXiv'2602-d9534f) | DP-aware AdaLN-Zero: Taming Conditioning-Induced Heavy-Tailed Gradients in Differentially Private Diffusion | [Link](https://arxiv.org/abs/2602.22610) | Differential Privacy Optimization | Dynamic noise scheduling | 
 | DP-λCGD | ![arXiv'2601](https://img.shields.io/badge/arXiv'2601-d9534f) | DP-λCGD: Efficient Noise Correlation for Differentially Private Model Training | [Link](https://arxiv.org/abs/2601.22334) | Differential Privacy Optimization | DP-SGD variants | 
@@ -468,6 +474,7 @@ pip install -r requirements.txt
 
 | Abbreviation | Venue & Year | Paper Title | Project | Sub-methods | Fine-grained Methods | 
 | --- | --- | --- | --- | --- | --- | 
+| DL-ZO | ![arXiv'2606](https://img.shields.io/badge/arXiv'2606-d9534f) | Dominant-Layer ZO: A Single Layer Dominates Zeroth-Order Fine-Tuning of LLMs | [Link](https://arxiv.org/abs/2606.05516) | Memory-efficient Methods | Layer-Selective Fine-Tuning |
 | LQ-SGD | ![arXiv'2506](https://img.shields.io/badge/arXiv'2506-d9534f) | Trustworthy Efficient Communication for Distributed Learning using LQ-SGD Algorithm | [Link](https://arxiv.org/abs/2506.17974) | Gradient Compression & Quantization； Low-Rank Methods | Quantization Compression； Low-Rank & Quantization | 
 | SUMO | ![arXiv'2505](https://img.shields.io/badge/arXiv'2505-d9534f) | SUMO: Subspace-Aware Moment-Orthogonalization for Accelerating Memory-Efficient LLM Training | [Link](https://arxiv.org/abs/2505.24749) | Low-Rank Gradient Storage | Gradient Low-Rank Projection | 
 | AlphaGrad | ![arXiv'2504](https://img.shields.io/badge/arXiv'2504-d9534f) | AlphaGrad: Non-Linear Gradient Normalization Optimizer | [Link](https://arxiv.org/abs/2504.16020) | Adaptive Learning Rate Methods； Low-Memory Optimizer Design； Stateless Optimization Methods | Stateless Adaptation； Structural Redesign； Parameter Characteristic-Driven Updates | 
@@ -494,6 +501,7 @@ pip install -r requirements.txt
 
 | Abbreviation | Venue & Year | Paper Title | Project | Sub-methods | Fine-grained Methods | 
 | --- | --- | --- | --- | --- | --- | 
+| MAdam | ![arXiv'2606](https://img.shields.io/badge/arXiv'2606-d9534f) | MAdam: Metric-Aware Multi-Objective Adam | [Link](https://arxiv.org/abs/2606.03904) | Hybrid Methods | Multi-Objective Adaptive Strategy |
 | KO | ![arXiv'2505](https://img.shields.io/badge/arXiv'2505-d9534f) | KO: Kinetics-inspired Neural Optimizer with PDE Simulation Approaches | [Link](https://arxiv.org/abs/2505.14777) | Auto-Designed Optimizers | Automated Discovery&Theoretical Derivation | 
 | BC-ADMM | ![arXiv'2504](https://img.shields.io/badge/arXiv'2504-d9534f) | BC-ADMM: An Efficient Non-convex Constrained Optimizer with Robotic Applications | [Link](https://arxiv.org/abs/2504.05465) | Robust Optimization | Structure-Aware Optimization | 
 | AdaGC | ![arXiv'2502](https://img.shields.io/badge/arXiv'2502-d9534f) | AdaGC: Improving Training Stability for Large Language Model Pretraining | [Link](https://arxiv.org/abs/2502.11034) | Gradient Normalization & Clipping； Robust Optimization | Noise-Robust Normalization； Dynamic Gradient Clipping； Noise-Robust Gradients | 
