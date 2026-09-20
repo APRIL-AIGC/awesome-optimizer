@@ -101,7 +101,7 @@ We conduct comprehensive **theoretical analysis** and standardized **empirical e
  Note that: Due to the huge paper in arXiv, we are sorry to cover all in our survey. You can directly present a PR into this repo and we will record it for next version update of our survey.
 
 **🔥New**
- - **[2026.08.06]** We update GitHub to record the available paper by the end of 2026/08/06.
+ - **[2026.09.20]** We update GitHub to record the available paper by the end of 2026/09/20.
 
 **🌟Welcome everyone to follow and join the Scaling Opt community: [Scaling Opt Community](https://tianshijing.github.io/ScalingOpt/)**
 - **Algorithm Visualizations**: Includes visualization scripts for the Rosenbrock Function and Rastrigin Function, allowing users to freely explore optimization behaviors.
@@ -144,6 +144,13 @@ pip install -r requirements.txt
 
 | Abbreviation | Venue & Year | Paper Title | Project | Sub-methods | Fine-grained Methods | 
 | --- | --- | --- | --- | --- | --- | 
+| AdamX | ![arXiv'2609](https://img.shields.io/badge/arXiv'2609-d9534f) | AdamX: Cosine similarity meets gradient descent | [Link](https://arxiv.org/abs/2609.11867) | Adaptive Learning Rate Methods | Cosine-Similarity Update Scaling |
+| SOSGM | ![arXiv'2609](https://img.shields.io/badge/arXiv'2609-d9534f) | Stochastic Gradient Methods with Online Scaling | [Link](https://arxiv.org/abs/2609.11751) | Preconditioned Gradient Methods | Online Stochastic Scaling |
+| Musec | ![arXiv'2609](https://img.shields.io/badge/arXiv'2609-d9534f) | Musec: MomentUm SpEctral Clipping for Stable Muon-type Training | [Link](https://arxiv.org/abs/2609.11655) | Gradient Normalization & Clipping | Momentum Spectral Clipping |
+| HyperTransfer | ![arXiv'2609](https://img.shields.io/badge/arXiv'2609-d9534f) | HyperTransfer: Understanding the Equivalence between Base Optimizer and Hyperball | [Link](https://arxiv.org/abs/2609.07017) | Learning Rate Scheduling | Hyperball Optimizer Dynamics Transfer |
+| MuonM | ![arXiv'2608](https://img.shields.io/badge/arXiv'2608-d9534f) | Curvature-Conditioned Multiscale Momentum with Sphere Constraints for LLM Pretraining | [Link](https://arxiv.org/abs/2608.28442) | Momentum-Enhanced | Curvature-Conditioned Momentum with Sphere Constraints |
+| SAMuon | ![arXiv'2608](https://img.shields.io/badge/arXiv'2608-d9534f) | Spectral Allocation: Why Muon Outperforms Adam, and How to Improve Muon | [Link](https://arxiv.org/abs/2608.25990) | Preconditioned Gradient Methods | Spectral Allocation with Bulk Amplification |
+| AK-Momentum | ![arXiv'2608](https://img.shields.io/badge/arXiv'2608-d9534f) | Activation-Keyed Momentum: An Anisotropic Momentum Update via the Delta Rule | [Link](https://arxiv.org/abs/2608.19491) | Momentum-Enhanced SGD | Activation-Keyed Anisotropic Momentum |
 | Muon-SW | ![arXiv'2607](https://img.shields.io/badge/arXiv'2607-d9534f) | Scale Weight Decay and Train Better | [Link](https://arxiv.org/abs/2607.23777) | Learning Rate Scheduling | Weight-Decay Scaling |
 | PoLoRA | ![arXiv'2607](https://img.shields.io/badge/arXiv'2607-d9534f) | PoLoRA: A Preconditioned Orthogonalized LoRA Optimizer | [Link](https://arxiv.org/abs/2607.17620) | Preconditioned Gradient Methods； Towards LLM Traning | Orthogonalized LoRA Preconditioning |
 | GEAR-SAM | ![arXiv'2607](https://img.shields.io/badge/arXiv'2607-d9534f) | Gradient-Energy Guided Block-Wise Perturbations for Sharpness-Aware Minimization | [Link](https://arxiv.org/abs/2607.18306) | Loss Landscape Optimization | Sharpness-Aware Minimization |
@@ -358,6 +365,8 @@ pip install -r requirements.txt
 
 | Abbreviation | Venue & Year | Paper Title | Project | Sub-methods | Fine-grained Methods | 
 | --- | --- | --- | --- | --- | --- | 
+| MpSub | ![arXiv'2609](https://img.shields.io/badge/arXiv'2609-d9534f) | MpSub: A Momentum $p$-Dimensional Subspace Trust-Region Method for Derivative-Free Fine-Tuning of Large Language Models | [Link](https://arxiv.org/abs/2609.07666) | Adaptive Methods | Momentum Subspace Trust Regions |
+| IPZO | ![arXiv'2608](https://img.shields.io/badge/arXiv'2608-d9534f) | Event-triggered Implicit Perturbation for Zeroth-Order Fine-Tuning of Spiking Transformers | [Link](https://arxiv.org/abs/2608.21223) | Perturbation Optimization | Event-Triggered Implicit Perturbations |
 | ZO-Act | ![arXiv'2607](https://img.shields.io/badge/arXiv'2607-d9534f) | ZO-Act: Efficient Zeroth-Order Fine-Tuning via One-Shot Activation-Informed Low-Rank Subspaces | [Link](https://arxiv.org/abs/2607.01125) | Memory-efficient Methods； Low-Rank Methods | Activation-Informed Low-Rank Subspaces |
 | AdaMeZO | ![arXiv'2605](https://img.shields.io/badge/arXiv'2605-d9534f) | AdaMeZO: Adam-style Zeroth-Order Optimizer for LLM Fine-tuning Without Maintaining the Moments | [Link](http://arxiv.org/abs/2605.00650v1) | Adaptive Methods | |
 | MEAZO | ![arXiv'2605](https://img.shields.io/badge/arXiv'2605-d9534f) | On Adaptivity in Zeroth-Order Optimization | [Link](http://arxiv.org/abs/2605.03869v1) | Memory-Efficient Methods | |
@@ -393,6 +402,11 @@ pip install -r requirements.txt
 
 | Abbreviation | Venue & Year | Paper Title | Project | Sub-methods | Fine-grained Methods | 
 | --- | --- | --- | --- | --- | --- | 
+| Tree-RGT | ![arXiv'2609](https://img.shields.io/badge/arXiv'2609-d9534f) | Optimal Network Dependence in Distributed Stochastic Optimization via Tree Routing | [Link](https://arxiv.org/abs/2609.18101) | Decentralized Communication | Tree-Routed Stochastic Gradient Tracking |
+| Spectral Correction | ![arXiv'2609](https://img.shields.io/badge/arXiv'2609-d9534f) | Communication-Efficient LLM Adaptation over Decentralized GPU Meshes | [Link](https://arxiv.org/abs/2609.14339) | Distributed Hybrid Optimization | Delayed-Anchor Gradient Denoising |
+| FedSubMuon | ![arXiv'2609](https://img.shields.io/badge/arXiv'2609-d9534f) | FedSubMuon: Communication-Efficient Federated LLM Fine-Tuning via Structured Subspace Muon | [Link](https://arxiv.org/abs/2609.06073) | Federated Learning Optimization | Structured-Subspace Muon with Compact Updates |
+| QEF-GT-AdamW | ![GLOBECOM'26](https://img.shields.io/badge/GLOBECOM'26-dfb317?labelColor=dfb317&color=dfb317&logoColor=1a202c) | Resilient Decentralized Wireless Federated Learning via Gradient Tracking with AdamW | [Link](https://arxiv.org/abs/2608.25535) | Gradient Compression & Quantization | Error-Feedback Quantization with Gradient Tracking |
+| Periodic Row-wise Muon | ![arXiv'2608](https://img.shields.io/badge/arXiv'2608-d9534f) | Scaling Muon for Diffusion Transformers | [Link](https://arxiv.org/abs/2608.20818) | Distributed Hybrid Optimization | Periodic Spectral Refresh with Sharded Momentum |
 | FedSpeechLLM | ![arXiv'2607](https://img.shields.io/badge/arXiv'2607-d9534f) | SpeechLLM Meets Federated Learning for End-to-End ASR: English and Italian Case Studies | [Link](https://arxiv.org/abs/2607.25716) | Federated Learning Optimization | SpeechLLM Federated Aggregation |
 | PowerScale | ![arXiv'2607](https://img.shields.io/badge/arXiv'2607-d9534f) | PowerScale: Energy-Efficient Geo-Distributed Model Training with Federated Datacenter Power | [Link](https://arxiv.org/abs/2607.25650) | Decentralized Communication | Hierarchical Geo-Distributed Aggregation |
 | CHARGE-FL | ![arXiv'2607](https://img.shields.io/badge/arXiv'2607-d9534f) | Channel-Adaptive Robust Aggregation for Over-the-Air Federated Learning in Heterogeneous Networks | [Link](https://arxiv.org/abs/2607.04218) | Federated Learning Optimization | Channel-Adaptive OTA Aggregation |
@@ -463,6 +477,7 @@ pip install -r requirements.txt
 
 | Abbreviation | Venue & Year| Paper Title | Project | Sub-methods | Fine-grained Methods |
 | --- | --- | --- | --- | --- | --- |
+| DP-Muon | ![ECCV'26](https://img.shields.io/badge/ECCV'26-dfb317?labelColor=dfb317&color=dfb317&logoColor=1a202c) | Spectral Gradient Orthogonalization Improves Differentially Private Training at Scale | [Link](https://arxiv.org/abs/2608.17415) | Differential Privacy Optimization | Spectral Post-Processing of Privatized Gradients |
 | DP-IVON-Gradsq | ![arXiv'2607](https://img.shields.io/badge/arXiv'2607-d9534f) | DP-IVON-Gradsq: Differentially Private Squared-Gradient Improved Variational Online Newton | [Link](https://arxiv.org/abs/2607.23649) | Differential Privacy Optimization | Noise-Corrected Curvature Estimation |
 | DP-NGD | ![arXiv'2607](https://img.shields.io/badge/arXiv'2607-d9534f) | Differentially Private Natural Gradient Descent | [Link](https://arxiv.org/abs/2607.05866) | Differential Privacy Optimization | Curvature-Aware DP Preconditioning |
 | HADES | ![arXiv'2606](https://img.shields.io/badge/arXiv'2606-d9534f) | HADES: Privacy-Preserving Federated Learning via Selective Feature Encryption and Hybrid Model Fusion | [Link](https://arxiv.org/abs/2606.22928) | Federated Privacy Enhancement | Selective Feature Encryption |
@@ -525,6 +540,9 @@ pip install -r requirements.txt
 
 | Abbreviation | Venue & Year | Paper Title | Project | Sub-methods | Fine-grained Methods | 
 | --- | --- | --- | --- | --- | --- | 
+| Muon-C | ![arXiv'2609](https://img.shields.io/badge/arXiv'2609-d9534f) | Muon-C: Operator-Aligned Muon for Convolutional Kernels | [Link](https://arxiv.org/abs/2609.09676) | Hybrid Methods | Operator-Aligned Convolutional Spectral Updates |
+| LoRA-TSD | ![arXiv'2609](https://img.shields.io/badge/arXiv'2609-d9534f) | LoRA-TSD: Tangent-Space Spectral Descent for LoRA via Muon-Style Updates | [Link](https://arxiv.org/abs/2609.02734) | Hybrid Methods | Tangent-Space Spectral Descent for LoRA |
+| SS-ESOAP | ![arXiv'2608](https://img.shields.io/badge/arXiv'2608-d9534f) | SS-ESOAP: Self-Scaled Adaptive Preconditioning for Physics-Informed Learning | [Link](https://arxiv.org/abs/2608.29448) | Preconditioned Gradient Methods | Self-Scaled Kronecker Preconditioning for PINNs |
 | Tensorion | ![arXiv'2606](https://img.shields.io/badge/arXiv'2606-d9534f) | Tensorion: A Tensor-Aware Generalization of the Muon Optimizer | [Link](https://arxiv.org/abs/2606.25975) | Hybrid Methods | Tensor-Aware Matrix Orthogonalization |
 | MAdam | ![arXiv'2606](https://img.shields.io/badge/arXiv'2606-d9534f) | MAdam: Metric-Aware Multi-Objective Adam | [Link](https://arxiv.org/abs/2606.03904) | Hybrid Methods | Multi-Objective Adaptive Strategy |
 | KO | ![arXiv'2505](https://img.shields.io/badge/arXiv'2505-d9534f) | KO: Kinetics-inspired Neural Optimizer with PDE Simulation Approaches | [Link](https://arxiv.org/abs/2505.14777) | Auto-Designed Optimizers | Automated Discovery&Theoretical Derivation | 
